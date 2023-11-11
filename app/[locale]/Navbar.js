@@ -1,6 +1,8 @@
 import { Navbar as FlowbiteNavbar } from "flowbite-react";
 import { Link } from "./../../navigation";
 
+export const runtime = "edge";
+
 function Navbar() {
   return (
     <FlowbiteNavbar fluid rounded>

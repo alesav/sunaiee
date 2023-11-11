@@ -9,6 +9,8 @@ import { Chart, registerables } from "chart.js";
 import Navbar from "./Navbar";
 Chart.register(...registerables);
 
+export const runtime = "edge";
+
 function Page() {
   const [randomNumber, setRandomNumber] = useState(0);
   const [result, setResult] = useState("");

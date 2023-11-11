@@ -4,6 +4,8 @@ import { useLocale } from "next-intl";
 import { NextIntlClientProvider, createTranslator } from "next-intl";
 import { notFound } from "next/navigation";
 
+export const runtime = "edge";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
