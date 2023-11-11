@@ -231,7 +231,7 @@ function Page() {
             </span>
             <span class="font-semibold text-gray-400 uppercase">
               {" "}
-              | Today's Success Rate:{" "}
+              | Today`s Success Rate:{" "}
             </span>
             <span class="font-semibold text-2xl uppercase">
               {successRate}%
