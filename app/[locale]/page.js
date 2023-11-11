@@ -9,8 +9,6 @@ import { Chart, registerables } from "chart.js";
 import Navbar from "./Navbar";
 Chart.register(...registerables);
 
-export const runtime = "edge";
-
 function Page() {
   const [randomNumber, setRandomNumber] = useState(0);
   const [result, setResult] = useState("");
@@ -215,15 +213,17 @@ function Page() {
           </p>
           <div class="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <Button className="bg-green-500" onClick={() => handleClick(1)}>
-              Price goes UP
+              {t("priceGoesUp")}
             </Button>
             <Button className="bg-red-500" onClick={() => handleClick(0)}>
-              Price goes DOWN
+              {t("priceGoesDown")}
             </Button>
           </div>
           <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
             {" "}
-            <span class="font-semibold text-gray-400 uppercase">RESULT: </span>
+            <span class="font-semibold text-gray-400 uppercase">
+              {t("result")}:{" "}
+            </span>
             <span
               class={`font-semibold text-2xl uppercase ${
                 result === "Correct" ? "text-green-500" : "text-red-500"
@@ -233,13 +233,11 @@ function Page() {
             </span>
             <span class="font-semibold text-gray-400 uppercase">
               {" "}
-              | Today`s Success Rate:{" "}
+              | {t("successRate")}:{" "}
             </span>
-            <span class="font-semibold text-2xl uppercase">
-              {successRate}%
-            </span>{" "}
+            <span class="font-semibold text-2xl uppercase">{successRate}%</span>{" "}
             <span class="font-semibold text-gray-400 uppercase">
-              ({attempts} attempts today){" "}
+              ({attempts} {t("attempts")}){" "}
             </span>
             <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
               <Line data={chartData} />

@@ -1,6 +1,11 @@
 {
     "Index": {
       "heroTitle": "Boost Intuition: Trust Your Gut!!",
-      "heroDescription": "Enhance your intuition with our online simulator! Upon loading the page, a result is instantly generated. Challenge yourself by clicking the UP or DOWN button to guess the correct answer. Track your progress with daily statistics displayed on an interactive graph below. Sharpen your instincts and make intuitive leaps with our intuitive training platform!"
+      "heroDescription": "Enhance your intuition with our online simulator! Upon loading the page, a result is instantly generated. Challenge yourself by clicking the UP or DOWN button to guess the correct answer. Track your progress with daily statistics displayed on an interactive graph below. Sharpen your instincts and make intuitive leaps with our intuitive training platform!",
+      "priceGoesUp": "Price goes UP",
+      "priceGoesDown": "Price goes DOWN",
+      "result": "RESULT",
+      "successRate": "TODAY`S SUCCESS RATE",
+      "attempts": "ATTEMPTS TODAY"
     }
   }
