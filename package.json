@@ -9,8 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "axios": "^1.6.2",
     "flowbite": "^2.0.0",
     "flowbite-react": "^0.6.4",
+    "lightweight-charts": "^4.1.1",
     "next": "14.0.1",
     "next-intl": "^3.0.0-rc.7",
     "react": "^18",
