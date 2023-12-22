@@ -43,7 +43,7 @@ const BtcUsdt15m = () => {
         if (binanceCandles.length > 0) {
           const chartContainer = document.getElementById("chart-container");
           const chart = createChart(chartContainer, {
-            width: 700,
+            containerWidth: () => container.offsetWidth,
             height: 300,
           });
           const candlestickSeries = chart.addCandlestickSeries();
@@ -65,7 +65,7 @@ const BtcUsdt15m = () => {
       if (data.length > 0) {
         const serverChartContainer = document.getElementById("server-chart");
         const serverChart = createChart(serverChartContainer, {
-          width: 700,
+          containerWidth: () => container.offsetWidth,
           height: 300,
         });
 
@@ -125,9 +125,7 @@ const BtcUsdt15m = () => {
       </h1>
       <div
         id="chart-container"
-        className="z-10 max-w-5xl w-full items-center  
-            justify-between font-mono text-sm lg:flex"
-        style={{ width: "700px", height: "300px", margin: "auto" }}
+        className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:w-1/2 mx-auto lg:flex"
       ></div>
 
       <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-grey-900 md:text-4xl lg:text-5xl dark:text-white">
@@ -135,9 +133,7 @@ const BtcUsdt15m = () => {
       </h1>
       <div
         id="server-chart"
-        className="z-10 max-w-5xl w-full items-center                                
- justify-between font-mono text-sm lg:flex"
-        style={{ width: "700px", height: "300px", margin: "auto" }}
+        className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:w-1/2 mx-auto lg:flex"
       ></div>
     </div>
   );
