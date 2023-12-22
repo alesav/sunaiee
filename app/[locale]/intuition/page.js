@@ -2,11 +2,10 @@
 
 import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
-import { Link } from "./../../navigation";
 import { Button } from "flowbite-react";
 import { Line } from "react-chartjs-2";
 import { Chart, registerables } from "chart.js";
-import Navbar from "./Navbar";
+import Navbar from "./../Navbar";
 Chart.register(...registerables);
 
 function Page() {

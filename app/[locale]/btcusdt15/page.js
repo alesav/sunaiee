@@ -3,11 +3,12 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "./../Navbar";
 import { createChart, CandlestickSeries, LineSeries } from "lightweight-charts";
+import { useTranslations } from "next-intl";
 import axios from "axios";
 
 const BtcUsdt15m = () => {
   const [closestTimestamp, setClosestTimestamp] = useState("");
-  //const [binanceCandles, setBinanceCandles] = useState([]);
+  const t = useTranslations("BtcUsdt15");
 
   let binanceCandles;
   const getServerData = async () => {
@@ -28,6 +29,7 @@ const BtcUsdt15m = () => {
         list: binanceData.data.reverse(),
       }
     );
+    console.log("Data223: " + JSON.stringify(response.data));
     return response.data;
   };
 
@@ -35,7 +37,7 @@ const BtcUsdt15m = () => {
   React.useEffect(() => {
     getServerData().then((resp) => {
       //resp = JSON.parse(resp);
-      const data = resp.arrays;
+      const data = JSON.parse(resp.arrays);
       //console.log("Data1235: " + JSON.stringify(data));
       if (!chart) {
         if (binanceCandles.length > 0) {
@@ -68,7 +70,7 @@ const BtcUsdt15m = () => {
         });
 
         const fillChart = (data, ind, inputColour, nextColour) => {
-          let dataObj = JSON.parse(data);
+          let dataObj = data;
 
           setClosestTimestamp(dataObj[ind].timestamp);
           const values = dataObj[ind].array;
@@ -118,7 +120,9 @@ const BtcUsdt15m = () => {
   return (
     <div>
       <Navbar />
-      <h1>Current BTC price</h1>
+      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-grey-900 md:text-4xl lg:text-5xl dark:text-white">
+        {t("BtcGraphTitle")}
+      </h1>
       <div
         id="chart-container"
         className="z-10 max-w-5xl w-full items-center  
@@ -126,7 +130,9 @@ const BtcUsdt15m = () => {
         style={{ width: "700px", height: "300px", margin: "auto" }}
       ></div>
 
-      <h1>BTCUSDT 15m</h1>
+      <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-grey-900 md:text-4xl lg:text-5xl dark:text-white">
+        {t("BtcPredictionTitle")}
+      </h1>
       <div
         id="server-chart"
         className="z-10 max-w-5xl w-full items-center                                
