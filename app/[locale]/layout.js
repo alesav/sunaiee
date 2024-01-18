@@ -13,7 +13,7 @@ export const metadata = {
   description: "Boost Intuition: Trust Your Gut!",
 };
 
-const locales = ["en", "ru"];
+const locales = ["en", "ru", "et", "tr"];
 
 export default async function RootLayout({ children, params: { locale } }) {
   let messages;

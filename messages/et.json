@@ -1,23 +1,18 @@
 {
   "Home": {
-    "heroTitle": "Welcome to Sunrise AI!",
-    "heroDescription": "Enhance your intuition with our online simulator! Upon loading the page, a result is instantly generated. Challenge yourself by clicking the UP or DOWN button to guess the correct answer. Track your progress with daily statistics displayed on an interactive graph below. Sharpen your instincts and make intuitive leaps with our intuitive training platform!",
-    "priceGoesUp": "Price goes UP",
-    "priceGoesDown": "Price goes DOWN",
-    "result": "RESULT",
-    "successRate": "TODAY`S SUCCESS RATE",
-    "attempts": "ATTEMPTS TODAY"
+    "heroTitle": "Tere tulemast Sunrise AI-sse!",
+    "heroDescription": "Toome tehisintellekti teie ettevõttesse!"
   },
   "Navbar":{
-    "AI_Support": "AI Support",
-    "Crypto": "Crypto",
-    "BTC_prediction": "BTC prediction",
+    "AI_Support": "AI tugi",
+    "Crypto": "Krüpto",
+    "BTC_prediction": "BTC ennustus",
     "Intuition": "Intuition",
-    "Language": "Language",
-    "English": "English",
-    "Russian": "Russian",
-    "Estonian": "Estonian",
-    "Turkish": "Turkish"
+    "Language": "Keel",
+    "English": "Inglise",
+    "Russian": "Vene",
+    "Estonian": "Eesti",
+    "Turkish": "Türgi"
   },
     "Intuition": {
       "heroTitle": "Boost Intuition: Trust Your Gut!!",

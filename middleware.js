@@ -2,10 +2,10 @@ import createMiddleware from "next-intl/middleware";
 
 export default createMiddleware({
   // A list of all locales that are supported
-  locales: ["en", "ru"],
+  locales: ["en", "ru", "et", "tr"],
 
   // If this locale is matched, pathnames work without a prefix (e.g. `/about`)
-  defaultLocale: "ru",
+  defaultLocale: "en",
 });
 
 export const config = {

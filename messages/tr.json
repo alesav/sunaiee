@@ -1,0 +1,30 @@
+{
+  "Home": {
+    "heroTitle": "Sunrise AI'ye hoş geldiniz!",
+    "heroDescription": "Yapay zekayı şirketinize getirelim!"
+  },
+  "Navbar":{
+    "AI_Support": "AI Destek",
+    "Crypto": "Crypto",
+    "BTC_prediction": "BTC prediction",
+    "Intuition": "Intuition",
+    "Language": "Dil",
+    "English": "İngilizce",
+    "Russian": "Rusça",
+    "Estonian": "Estonca",
+    "Turkish": "Türkçe"
+  },
+    "Intuition": {
+      "heroTitle": "Sezgilerinizi Güçlendirin: İçgüdülerinize Güvenin!",
+      "heroDescription": "Online simülatörümüz ile sezgilerinizi geliştirin! Sayfa yüklendikten sonra anında bir sonuç üretilir. Doğru cevabı tahmin etmek için YUKARI veya AŞAĞI düğmesine tıklayarak kendinize meydan okuyun. Aşağıdaki interaktif grafikte görüntülenen günlük istatistiklerle ilerlemenizi takip edin. Sezgisel eğitim platformumuzla içgüdülerinizi keskinleştirin ve sezgisel sıçramalar yapın!",
+      "priceGoesUp": "Fiyat yükseliyor",
+      "priceGoesDown": "Fiyat Düşüyor",
+      "result": "SONUÇ",
+      "successRate": "BUGÜNKÜ BAŞARI ORANI",
+      "attempts": "BUGÜNKÜ GİRİŞİMLER"
+    },
+    "BtcUsdt15": {
+      "BtcGraphTitle": "Binance BTC/USDT grafiği, 15 dakika",
+      "BtcPredictionTitle": "Binance BTC/USDT vadeli fiyatları"
+    }
+  }
