@@ -4,15 +4,20 @@
     "heroDescription": "Yapay zekayı şirketinize getirelim!"
   },
   "Navbar":{
+    "About": "Hakkımızda",
+    "Pricing":"Fiyatlandırma",
+    "Blog":"Blog",
+    "Contact": "Temas etmek",
     "AI_Support": "AI Destek",
-    "Crypto": "Crypto",
+    "Projects": "Projeler",
     "BTC_prediction": "BTC prediction",
     "Intuition": "Intuition",
     "Language": "Dil",
     "English": "İngilizce",
     "Russian": "Rusça",
     "Estonian": "Estonca",
-    "Turkish": "Türkçe"
+    "Turkish": "Türkçe",
+    "Login":"Kayıt Ol / Giriş yap"
   },
     "Intuition": {
       "heroTitle": "Sezgilerinizi Güçlendirin: İçgüdülerinize Güvenin!",

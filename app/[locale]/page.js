@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 function Page() {
   const [randomNumber, setRandomNumber] = useState(0);
@@ -42,6 +43,7 @@ function Page() {
           </p>
         </div>
       </section>
+      <Footer />
     </div>
   );
 }

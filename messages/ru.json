@@ -4,16 +4,27 @@
     "heroDescription": "Давайте внедним искусственный интеллект в Вашу компанию!"
   },
   "Navbar":{
+    "About": "О нас",
+    "Pricing":"Цены",
+    "Blog":"Блог",
+    "Contact": "Контакт",
     "AI_Support": "Тех Поддержка ИИ",
-    "Crypto": "Крипта",
+    "Projects": "Проекты",
     "BTC_prediction": "BTC прогноз",
     "Intuition": "Интуиция",
     "Language": "Язык",
     "English": "Английский",
     "Russian": "Русский",
     "Estonian": "Эстонский",
-    "Turkish": "Турецкий"
+    "Turkish": "Турецкий",
+    "Login":"Зарегистрироваться / Войти"
   },  
+  "Footer":{
+    "About": "О нас",
+    "Pricing":"Цены",
+    "Blog":"Блог",
+    "Contact": "Контакт"
+  },
   "Intuition": {
       "heroTitle": "Прокачай интуицию, доверься себе!",
       "heroDescription": "Улучшайте свою интуицию с помощью нашего онлайн-тренажера! Значение случайно генерируется до нажатия кнопки. Проверьте себя, нажимая кнопку ВВЕРХ или ВНИЗ. На графике внизу результаты разбитые по дням.",
@@ -26,5 +37,14 @@
     "BtcUsdt15": {
       "BtcGraphTitle": "График Binance BTC/USDT, 15 минут",
       "BtcPredictionTitle": "Прогноз Binance BTC/USDT, 15 минут"
+    },
+    "About":{
+      "Title":"About us Title"
+    },
+    "Pricing":{
+      "Title":"Pricing Title"
+    },
+    "Contact":{
+      "Title":"Contact Title"
     }
   }

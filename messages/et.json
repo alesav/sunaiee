@@ -4,15 +4,26 @@
     "heroDescription": "Toome tehisintellekti teie ettevõttesse!"
   },
   "Navbar":{
+    "About": "Meist",
+    "Pricing":"Hinnad",
+    "Blog":"Blogi",
+    "Contact": "Kontakt",
     "AI_Support": "AI tugi",
-    "Crypto": "Krüpto",
+    "Projects": "Projektid",
     "BTC_prediction": "BTC ennustus",
     "Intuition": "Intuition",
     "Language": "Keel",
     "English": "Inglise",
     "Russian": "Vene",
     "Estonian": "Eesti",
-    "Turkish": "Türgi"
+    "Turkish": "Türgi",
+    "Login":"Registreeru / Logi sisse"
+  },
+  "Footer":{
+    "About": "Meist",
+    "Pricing":"Hinnad",
+    "Blog":"Blogi",
+    "Contact": "Kontakt"
   },
     "Intuition": {
       "heroTitle": "Boost Intuition: Trust Your Gut!!",

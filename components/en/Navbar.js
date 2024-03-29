@@ -1,14 +1,9 @@
-"use client";
-import React from "react";
 import { Navbar as FlowbiteNavbar, Dropdown, Button } from "flowbite-react";
 import { Link } from "./../../navigation";
-import { useTranslations } from "next-intl";
-import { HiCog, HiCurrencyDollar, HiLogout, HiViewGrid } from "react-icons/hi";
 
 export const runtime = "edge";
 
 function Navbar() {
-  const t = useTranslations("Navbar");
   return (
     <FlowbiteNavbar fluid rounded>
       <FlowbiteNavbar.Brand href="/">
@@ -28,45 +23,41 @@ function Navbar() {
         <FlowbiteNavbar.Toggle />
       </div>
       <FlowbiteNavbar.Collapse>
-        <FlowbiteNavbar.Link href="/about">{t("About")}</FlowbiteNavbar.Link>
-        <FlowbiteNavbar.Link href="/pricing">
-          {t("Pricing")}
-        </FlowbiteNavbar.Link>
-        <FlowbiteNavbar.Link href="/blog">{t("Blog")}</FlowbiteNavbar.Link>
-        <Dropdown label={t("Projects")} inline>
+        <FlowbiteNavbar.Link href="/about">About</FlowbiteNavbar.Link>
+        <FlowbiteNavbar.Link href="/pricing">Pricing</FlowbiteNavbar.Link>
+        <FlowbiteNavbar.Link href="/blog">Blog</FlowbiteNavbar.Link>
+        <Dropdown label="Projects" inline>
           <Dropdown.Item>
             <FlowbiteNavbar.Link href="btcusdt15">
-              {t("BTC_prediction")}
+              BTC Predicton
             </FlowbiteNavbar.Link>
           </Dropdown.Item>
           <Dropdown.Item>
             <FlowbiteNavbar.Link href="intuition">
-              {t("Intuition")}
+              Intuition
             </FlowbiteNavbar.Link>
           </Dropdown.Item>
         </Dropdown>
-        <FlowbiteNavbar.Link href="/contact">
-          {t("Contact")}
-        </FlowbiteNavbar.Link>
-        <Dropdown label={t("Language")} inline>
+        <FlowbiteNavbar.Link href="/contact">Contact</FlowbiteNavbar.Link>
+        <Dropdown label="Language" inline>
           <Dropdown.Item>
             <Link locale="en" href="/">
-              {t("English")}
+              English
             </Link>
           </Dropdown.Item>
           <Dropdown.Item>
             <Link locale="ru" href="/">
-              {t("Russian")}
+              Russian
             </Link>
           </Dropdown.Item>
           <Dropdown.Item>
             <Link locale="et" href="/">
-              {t("Estonian")}
+              Estonian
             </Link>
           </Dropdown.Item>
           <Dropdown.Item>
             <Link locale="tr" href="/">
-              {t("Turkish")}
+              Turkish
             </Link>
           </Dropdown.Item>
         </Dropdown>

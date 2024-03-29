@@ -9,15 +9,26 @@
     "attempts": "ATTEMPTS TODAY"
   },
   "Navbar":{
+    "About": "About",
+    "Pricing":"Pricing",
+    "Blog":"Blog",
+    "Contact": "Contact",
     "AI_Support": "AI Support",
-    "Crypto": "Crypto",
+    "Projects": "Projects",
     "BTC_prediction": "BTC prediction",
     "Intuition": "Intuition",
     "Language": "Language",
     "English": "English",
     "Russian": "Russian",
     "Estonian": "Estonian",
-    "Turkish": "Turkish"
+    "Turkish": "Turkish",
+    "Login":"Sign up / Login"
+  },
+  "Footer":{
+    "About": "About",
+    "Pricing":"Pricing",
+    "Blog":"Blog",
+    "Contact": "Contact"
   },
     "Intuition": {
       "heroTitle": "Boost Intuition: Trust Your Gut!!",
@@ -31,5 +42,14 @@
     "BtcUsdt15": {
       "BtcGraphTitle": "Binance BTC/USDT graph, 15min",
       "BtcPredictionTitle": "Binance BTC/USDT future prices"
+    },
+    "About":{
+      "Title":"About us Title"
+    },
+    "Pricing":{
+      "Title":"Pricing Title"
+    },
+    "Contact":{
+      "Title":"Contact Title"
     }
   }
