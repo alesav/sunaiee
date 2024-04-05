@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "axios": "^1.6.2",
+    "chart.js": "^4.4.2",
     "flowbite": "^2.0.0",
     "flowbite-react": "^0.6.4",
     "lightweight-charts": "^4.1.1",
