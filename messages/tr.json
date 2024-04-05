@@ -1,8 +1,16 @@
 {
   "Home": {
     "heroTitle": "Sunrise AI'ye hoş geldiniz!",
-    "heroDescription": "Yapay zekayı şirketinize getirelim!"
+    "heroDescription": "Yapay zekayı şirketinize getirelim!",
+    "input_placeholder": "Sorunuzu buraya yazın...",
+    "voice_lang":"tr",
+    "ask_btn":"Sor!",
+    "assistant_name": "Asistan",
+    "hint":"Bana projelerimiz, fiyatlandırma ve daha fazlası hakkında her şeyi sorun!",
+    "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
+    "user_name":"Siz"
   },
+  
   "Navbar":{
     "About": "Hakkımızda",
     "Pricing":"Fiyatlandırma",
@@ -18,6 +26,27 @@
     "Estonian": "Estonca",
     "Turkish": "Türkçe",
     "Login":"Kayıt Ol / Giriş yap"
+  },
+  "Pricing":{
+    "Title":"Fiyatlar",
+    "Description":"Lütfen aşağıdaki planlarımızı kontrol edin. Ücretsiz katman küçük şirketler, Airbnb ev sahipleri ve yapay zeka meraklıları için uygundur.",
+    "Free_tier":"Ücretsiz katman",
+    "Per_month":"ay",
+    "Always_free": "Her zaman ücretsiz",
+    "Up_to_3_Livechat_bots": "3 adede kadar Livechat botu",
+    "1_agent_seat": "1 ajan",
+    "Limited_amount_of_models": "Sınırlı sayıda model",
+    "Personal_support": "Kişisel destek",
+    "Api_access": "API erişimi",
+    "Choose_plan": "Plan seçin",
+    "Standard_plan":"Standart plan",
+    "10_Livechat_and_livechat2_bots":"10 Livechat ve Livechat2 botları",
+    "Unlimited_agents":"Sınırsız temsilci",
+    "Integration_help": "Entegrasyon yardımı",
+    "100_threads_per_months": "Ayda 100 iş parçacığı",
+    "1000_threads_per_months": "Ayda 1000 iş parçacığı",
+    "20_models": "20+ LLM modeli"
+
   },
     "Intuition": {
       "heroTitle": "Sezgilerinizi Güçlendirin: İçgüdülerinize Güvenin!",

@@ -1,7 +1,15 @@
 {
   "Home": {
     "heroTitle": "Tere tulemast Sunrise AI-sse!",
-    "heroDescription": "Toome tehisintellekti teie ettevõttesse!"
+    "heroDescription": "Toome tehisintellekti teie ettevõttesse!",
+    "youtube_id": "https://www.youtube.com/embed/yH7g0lM3P08",
+    "input_placeholder": "Sisestage küsimus siia...",
+    "voice_lang":"et",
+    "ask_btn":"Küsida!",
+    "assistant_name": "Assistent",
+    "hint":"Küsige minult meie projektide, hinna ja muu kohta.",
+    "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
+    "user_name":"Teie"
   },
   "Navbar":{
     "About": "Meist",
@@ -24,6 +32,27 @@
     "Pricing":"Hinnad",
     "Blog":"Blogi",
     "Contact": "Kontakt"
+  },
+  "Pricing":{
+    "Title":"Pricing Title",
+    "Description":"Please check our plans below. Free tier is suitable for small companies, Airbnb hosts and AI enthusiasts.",
+    "Free_tier":"Free tier",
+    "Per_month":"month",
+    "Always_free": "Always free",
+    "Up_to_3_Livechat_bots": "Up to 3 Livechat bots",
+    "1_agent_seat": "1 agent seat",
+    "Limited_amount_of_models": "Limited amount of models",
+    "Personal_support": "Personal support",
+    "Api_access": "API access",
+    "Choose_plan": "Choose plan",
+    "Standard_plan":"Standard plan",
+    "10_Livechat_and_livechat2_bots":"10 Livechat and Livechat2 bots",
+    "Unlimited_agents":"Unlimited agents",
+    "Integration_help": "Integration help",
+    "100_threads_per_months": "100 threads per month",
+    "1000_threads_per_months": "1000 threads per month",
+    "20_models": "20+ LLM models"
+
   },
     "Intuition": {
       "heroTitle": "Boost Intuition: Trust Your Gut!!",

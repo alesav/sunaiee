@@ -6,7 +6,15 @@
     "priceGoesDown": "Price goes DOWN",
     "result": "RESULT",
     "successRate": "TODAY`S SUCCESS RATE",
-    "attempts": "ATTEMPTS TODAY"
+    "attempts": "ATTEMPTS TODAY",
+    "youtube_id": "https://www.youtube.com/embed/yH7g0lM3P08",
+    "input_placeholder": "Type your question here...",
+    "voice_lang":"en-US",
+    "ask_btn":"Ask me!",
+    "assistant_name": "Assistant",
+    "hint":"Ask me anything about our projects, pricing, and more!",
+    "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
+    "user_name":"You"
   },
   "Navbar":{
     "About": "About",
@@ -47,7 +55,25 @@
       "Title":"About us Title"
     },
     "Pricing":{
-      "Title":"Pricing Title"
+      "Title":"Pricing Title",
+      "Description":"Please check our plans below. Free tier is suitable for small companies, Airbnb hosts and AI enthusiasts.",
+      "Free_tier":"Free tier",
+      "Per_month":"month",
+      "Always_free": "Always free",
+      "Up_to_3_Livechat_bots": "Up to 3 Livechat bots",
+      "1_agent_seat": "1 agent seat",
+      "Limited_amount_of_models": "Limited amount of models",
+      "Personal_support": "Personal support",
+      "Api_access": "API access",
+      "Choose_plan": "Choose plan",
+      "Standard_plan":"Standard plan",
+      "10_Livechat_and_livechat2_bots":"10 Livechat and Livechat2 bots",
+      "Unlimited_agents":"Unlimited agents",
+      "Integration_help": "Integration help",
+      "100_threads_per_months": "100 threads per month",
+      "1000_threads_per_months": "1000 threads per month",
+      "20_models": "20+ LLM models"
+
     },
     "Contact":{
       "Title":"Contact Title"

@@ -1,7 +1,15 @@
 {
   "Home": {
     "heroTitle": "Добро пожаловать в Sunrise AI!",
-    "heroDescription": "Давайте внедним искусственный интеллект в Вашу компанию!"
+    "heroDescription": "Давайте внедним искусственный интеллект в Вашу компанию!",
+    "youtube_id": "https://www.youtube.com/embed/yH7g0lM3P08",
+    "input_placeholder": "Задайте вопрос тут...",
+    "voice_lang":"ru",
+    "ask_btn":"Спросить!",
+    "assistant_name": "Ассистент",
+    "hint":"Спросите меня о проекте, ценах и многом другом!",
+    "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
+    "user_name":"Вы"
   },
   "Navbar":{
     "About": "О нас",
@@ -42,9 +50,26 @@
       "Title":"About us Title"
     },
     "Pricing":{
-      "Title":"Pricing Title"
+      "Title":"Цены и пакеты",
+      "Description":"Пожалуйста, ознакомьтесь с нашими тарифными планами. Бесплатный уровень подходит для небольших компаний, владельцев Airbnb апартаментов и ИИ энтузиастов",
+      "Free_tier":"Бесплатный тариф",
+      "Per_month":"в месяц",
+      "Always_free": "Бесплатно навсегда",
+      "Up_to_3_Livechat_bots": "До 3 Лайвчат ботов",
+      "1_agent_seat": "1 агент",
+      "Limited_amount_of_models": "Ограниченное количество моделей",
+      "Personal_support": "Персональная поддержка",
+      "Api_access": "API доступ",
+      "Choose_plan": "Выберите тариф",
+      "Standard_plan":"Стандартный тариф",
+      "10_Livechat_and_livechat2_bots":"10 Лайвчатов и Лайвчат2 ботов",
+      "Unlimited_agents":"Безлимитое количество агентов",
+      "Integration_help": "Помощь в интеграции",
+      "100_threads_per_months": "100 переписок в месяц",
+      "1000_threads_per_months": "1000 переписок в месяц",
+      "20_models": "Более 20 LLM моделей"
     },
     "Contact":{
-      "Title":"Contact Title"
+      "Title":"Контакт"
     }
   }
