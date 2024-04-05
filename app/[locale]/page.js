@@ -24,6 +24,8 @@ function Page() {
   const [messages, setMessages] = useState([]);
   const [isSending, setIsSending] = useState(false);
   const [botId, setBotId] = useState("d56edbff-6894-415e-973c-102d0e2c2257");
+  const [response, setResponse] = useState(null);
+  const [showChatBubble, setShowChatBubble] = useState(false);
   const [chartData, setChartData] = useState({
     labels: [],
     datasets: [
