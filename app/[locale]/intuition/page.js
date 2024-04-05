@@ -4,9 +4,9 @@ import React, { useState, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { Button } from "flowbite-react";
 import { Line } from "react-chartjs-2";
-import { Chart, registerables } from "chart.js";
+//import { Chart, registerables } from "chart.js";
 import Navbar from "./../Navbar";
-Chart.register(...registerables);
+//Chart.register(...registerables);
 
 function Page() {
   const [randomNumber, setRandomNumber] = useState(0);
