@@ -39,11 +39,30 @@ function Page() {
   });
   const t = useTranslations("Home");
 
+  // Speech Recognition Setup
+  let recognition;
+  if (typeof window !== "undefined") {
+    const SpeechRecognition =
+      window.SpeechRecognition || window.webkitSpeechRecognition;
+    recognition = new SpeechRecognition();
+    recognition.continuous = false;
+    recognition.lang = "ru";
+    recognition.interimResults = false;
+    recognition.maxAlternatives = 1;
+
+    recognition.onresult = function (event) {
+      const transcript = event.results[0][0].transcript;
+      console.log("Transcript", transcript);
+      document.getElementById("voice-search").value = transcript;
+      handleSearch({ target: { elements: [{ value: transcript }] } });
+    };
+  }
+
   useEffect(() => {
     recognition.lang = "en-US";
 
     // Check if database exists
-    const request = indexedDB.open(botIdFromUrl, 1);
+    const request = indexedDB.open(botId, 1);
 
     request.onsuccess = function (event) {
       setShowChatBubble(true);
