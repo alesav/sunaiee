@@ -19,7 +19,7 @@ const locales = ["en", "ru", "et", "tr"];
 export default async function RootLayout({ children, params: { locale } }) {
   let messages;
   try {
-    messages = (await import(`../../../messages/ru.json`)).default;
+    messages = (await import(`../../../../messages/en.json`)).default;
   } catch (error) {
     notFound();
   }
