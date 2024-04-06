@@ -20,7 +20,6 @@ function Page() {
   const [attempts, setAttempts] = useState(0);
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
-  const [kvData, setKvData] = useState([]);
   const [messages, setMessages] = useState([]);
   const [isSending, setIsSending] = useState(false);
   const [botId, setBotId] = useState("d56edbff-6894-415e-973c-102d0e2c2257");
@@ -39,6 +38,39 @@ function Page() {
     ],
   });
   const t = useTranslations("Home");
+
+  useEffect(() => {
+    recognition.lang = "en-US";
+
+    // Check if database exists
+    const request = indexedDB.open(botIdFromUrl, 1);
+
+    request.onsuccess = function (event) {
+      setShowChatBubble(true);
+      const db = event.target.result;
+      const transaction = db.transaction("messages", "readonly");
+      const objectStore = transaction.objectStore("messages");
+      const messages = [];
+      objectStore.openCursor().onsuccess = function (event) {
+        const cursor = event.target.result;
+        if (cursor) {
+          messages.push(cursor.value);
+          cursor.continue();
+        } else {
+          setMessages(messages);
+        }
+      };
+    };
+
+    request.onupgradeneeded = function (event) {
+      const db = event.target.result;
+      const objectStore = db.createObjectStore("messages", {
+        keyPath: "timestamp",
+      });
+      objectStore.createIndex("sender", "sender", { unique: false });
+      objectStore.createIndex("text", "text", { unique: false });
+    };
+  }, []);
 
   const handleSearch = async (e) => {
     e.preventDefault();
