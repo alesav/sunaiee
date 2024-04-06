@@ -199,7 +199,7 @@ function Page() {
             </p>
 
             <form onSubmit={handleSearch}>
-              <div class="flex mx-4 items-center  mx-auto">
+              <div class="flex mx-4 items-center  mx-auto max-w-2xl">
                 <label for="voice-search" class="sr-only">
                   Ask
                 </label>
