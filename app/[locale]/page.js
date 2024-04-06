@@ -165,6 +165,26 @@ function Page() {
     return date.toLocaleString();
   };
 
+  useEffect(() => {
+    if (response) {
+      const dbName = botId;
+      const db = indexedDB.open(dbName, 1);
+
+      db.onsuccess = function (event) {
+        const db = event.target.result;
+        const transaction = db.transaction("messages", "readwrite");
+        const objectStore = transaction.objectStore("messages");
+        const message = {
+          timestamp: new Date().getTime(),
+          sender: "assistant",
+          text: response,
+        };
+        objectStore.add(message);
+        setMessages([...messages, message]);
+      };
+    }
+  }, [response]);
+
   return (
     <div>
       <Navbar />
