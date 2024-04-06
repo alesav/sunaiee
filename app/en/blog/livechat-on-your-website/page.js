@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import Navbar from "./../../[locale]/Navbar";
-import Footer from "./../../[locale]/Footer";
+import Navbar from "./../../../[locale]/Navbar";
+import Footer from "./../../../[locale]/Footer";
 import { useTranslations } from "next-intl";
 import { NextIntlClientProvider, createTranslator } from "next-intl";
 
