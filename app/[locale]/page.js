@@ -200,9 +200,9 @@ function Page() {
             </p>
 
             <iframe
-              src="https://a.sunai.ee/b?bot=c2182e79-f387-4a4e-934f-d53ce30d077f"
+              src={`https://a.sunai.ee/b?bot=${t("botId")}`}
               width="100%"
-              height="500"
+              height="490"
               allow="microphone *"
               style={{
                 maxWidth: 640,
