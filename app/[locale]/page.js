@@ -201,9 +201,14 @@ function Page() {
 
             <iframe
               src="https://a.sunai.ee/b?bot=c2182e79-f387-4a4e-934f-d53ce30d077f"
-              width="500"
+              width="100%"
               height="500"
               allow="microphone *"
+              style={{
+                maxWidth: 640,
+                width: "100%",
+                overflow: "auto",
+              }}
             ></iframe>
           </div>
           <div className="lg:mt-0 lg:col-span-4 lg:flex items-center justify-center">
