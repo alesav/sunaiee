@@ -9,7 +9,9 @@
     "assistant_name": "Ассистент",
     "hint":"Спросите меня о проекте, ценах и многом другом!",
     "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
-    "user_name":"Вы"
+    "user_name":"Вы",
+    "botId":"ccd475aa-a6c8-4452-bdd4-657f521c8b6a",
+    "voiceLanguage": "ru"
   },
   "Navbar":{
     "About": "О нас",

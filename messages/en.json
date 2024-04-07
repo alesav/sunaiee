@@ -14,7 +14,9 @@
     "assistant_name": "Assistant",
     "hint":"Ask me anything about our projects, pricing, and more!",
     "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
-    "user_name":"You"
+    "user_name":"You",
+    "botId":"c2182e79-f387-4a4e-934f-d53ce30d077f",
+    "voiceLanguage": "en-US"
   },
   "Navbar":{
     "About": "About",

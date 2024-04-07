@@ -59,7 +59,8 @@ function Page() {
   }
 
   useEffect(() => {
-    recognition.lang = "en-US";
+    recognition.lang = t("voiceLanguage");
+    setBotId(t("botId"));
 
     // Check if database exists
     const request = indexedDB.open(botId, 1);
