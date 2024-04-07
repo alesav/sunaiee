@@ -17,8 +17,8 @@ const About = () => {
           </h1>
           <p>This is embedded Livechat:</p>
           <iframe
-            src="https://a.sunai.ee/b?bot=91e63843-304f-4dab-8498-a7d46e4afc33"
-            width="400"
+            src="https://a.sunai.ee/b?bot=c2182e79-f387-4a4e-934f-d53ce30d077f"
+            width="500"
             height="500"
             allow="microphone *"
           ></iframe>
