@@ -200,7 +200,7 @@ function Page() {
             </p>
 
             <iframe
-              src={`https://a.sunai.ee/b?bot=${t("botId")}`}
+              src={`https://a.sunai.ee/c?bot=${t("botId")}`}
               width="100%"
               height="490"
               allow="microphone *"

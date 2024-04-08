@@ -1,6 +1,7 @@
 {
   "Home": {
     "heroTitle": "Sunrise AI'ye hoş geldiniz!",
+    "youtube_id": "https://www.youtube.com/embed/bgID7XgmKcA",
     "heroDescription": "Yapay zekayı şirketinize getirelim!",
     "input_placeholder": "Sorunuzu buraya yazın...",
     "voice_lang":"tr",
