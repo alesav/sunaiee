@@ -1,25 +1,38 @@
-"use client";
-import Navbar from "./../Navbar";
-import Footer from "./../Footer";
-import React from "react";
-import { useTranslations } from "next-intl";
+import Contact from "./contact";
 
-const Contact = () => {
-  const t = useTranslations("Contact");
+/*
+export const metadata = {
+  title: "Demo - ModalJS",
+};
+*/
+
+export async function generateMetadata({ params, params: { locale } }, parent) {
+  // read route params
+  const id = params.id;
+
+  // fetch data
+
+  let messages;
+  try {
+    messages = (await import(`../../../messages/${params.locale}.json`))
+      .default;
+    console.log("Messages: " + JSON.stringify(params));
+  } catch (error) {
+    notFound();
+  }
+
+  return {
+    title: messages.Contact.metaTitle,
+    description: messages.Contact.metaDescription,
+  };
+}
+
+const Page = () => {
   return (
     <div>
-      <Navbar />
-      <section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-12">
-          <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-grey-900 md:text-4xl lg:text-5xl dark:text-white">
-            {t("Title")}
-          </h1>
-          <p>This is a basic Next.js page.</p>
-        </div>
-      </section>
-      <Footer />
+      <Contact />
     </div>
   );
 };
 
-export default Contact;
+export default Page;

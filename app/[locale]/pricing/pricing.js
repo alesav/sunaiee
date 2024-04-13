@@ -12,7 +12,7 @@ const Pricing = () => {
   return (
     <div>
       <Head>
-        <title>12{metadata("title")}</title>
+        <title>{metadata("title")}</title>
         <meta name="description" content={metadata.description} />
         <meta name="test" content="Test" />
       </Head>
@@ -22,7 +22,7 @@ const Pricing = () => {
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-grey-900 md:text-4xl lg:text-5xl dark:text-white">
             {t("Title")}
           </h1>
-          <p>12 {t("Description")}</p>
+          <p>{t("Description")}</p>
 
           <div className="flex">
             <div className="p-4">
@@ -194,7 +194,7 @@ const Pricing = () => {
                 <div className="flex items-baseline text-gray-900 dark:text-white">
                   <span className="text-3xl font-semibold">€</span>
                   <span className="text-5xl font-extrabold tracking-tight">
-                    9.99
+                    49.99
                   </span>
                   <span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                     /{t("Per_month")}

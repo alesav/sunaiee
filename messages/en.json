@@ -1,5 +1,7 @@
 {
   "Home": {
+    "metaTitle": "Sunrise AI Assistance",
+    "metaDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge AI solutions.",
     "heroTitle": "AI Assistance Crafted for Your Success",
     "heroDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge solutions. Our AI assistants seamlessly integrate into your workflows, automating repetitive tasks to boost efficiency and provide exceptional customer experiences.",
     "priceGoesUp": "Price goes UP",
@@ -62,10 +64,12 @@
       "BtcPredictionTitle": "Binance BTC/USDT future prices"
     },
     "About":{
+      "metaTitle": "About Sunrise AI",
+      "metaDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge AI solutions.",
       "Title":"About us Title"
     },
     "Pricing":{
-      "metaTitle": "Welcome to Sunrise AI - Home",
+      "metaTitle": "Sunrise AI - Pricing",
       "metaDescription": "Enhance your intuition with our online simulator! - Home Page",
       "Title":"Pricing Title",
       "Description":"Please check our plans below. Free tier is suitable for small companies, Airbnb hosts and AI enthusiasts.",
@@ -88,18 +92,8 @@
 
     },
     "Contact":{
+      "metaTitle": "Sunrise AI - Contact",
+      "metaDescription": "Enhance your intuition with our online simulator!",
       "Title":"Contact Title"
-    },
-    "HomeMetadata": {
-      "title": "Welcome to Sunrise AI - Home",
-      "description": "Enhance your intuition with our online simulator! - Home Page"
-    },
-    "PricingMetadata": {
-      "title": "Sunrise AI Pricing - English",
-      "description": "Explore our pricing plans and choose the right one for you."
-    },
-    "ContactMetadata": {
-      "title": "Contact Sunrise AI - English",
-      "description": "Get in touch with us for any queries."
     }
   }
