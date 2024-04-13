@@ -2,7 +2,7 @@
   "Home": {
     "heroTitle": "Sunrise AI'ye hoş geldiniz!",
     "youtube_id": "https://www.youtube.com/embed/bgID7XgmKcA",
-    "heroDescription": "Yapay zekayı şirketinize getirelim!",
+    "heroDescription": "İş operasyonlarınızı Sunrise AI'ın son teknoloji çözümleriyle dönüştürün. Yapay zeka asistanlarımız, iş akışlarınıza sorunsuz bir şekilde entegre olur ve tekrarlanan görevleri otomatikleştirerek verimliliği artırır, olağanüstü müşteri deneyimleri sunar",
     "input_placeholder": "Sorunuzu buraya yazın...",
     "voice_lang":"tr",
     "ask_btn":"Sor!",
@@ -11,7 +11,14 @@
     "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
     "user_name":"Siz",
     "botId":"e2fb7415-555b-4904-8dd2-5e921abca4d4",
-    "voiceLanguage": "tr"
+    "voiceLanguage": "tr",
+    "card_title_1":"Sanal Misafirperverlik Asistanınız",
+    "card_descr_1":"Çok dilli AI asistanımız, misafir sorularını yanıtlamak, talepleri karşılamak ve sorunsuz bir misafir deneyimi sunmak için 7/24 hizmettedir. Kaçırılan mesajlara ve memnuniyetsiz müşterilere veda edin.",
+    "card_title_2":"AI Gücüyle Kolaylaşan Çevrimiçi Rezervasyon",
+    "card_descr_2":"Akıllı rezervasyon asistanımız, rezervasyon sürecini kolaylaştırır. Sadece tercih ettiğiniz saatin müsaitliğini sorun ve AI anında kontrol edip rezervasyonu onaylasın - form doldurma veya zahmetli işlemler olmadan. Sohbet ederek rezervasyon yapmanın kolaylığını yaşayın.",
+    "card_title_3":"Verimli Veri Toplama Çözümünüz",
+    "card_descr_3":"Akıllı sohbet robotumuz, işe alım süreçleri, hizmet randevuları vb. öncesinde müşterilerden gerekli tüm bilgileri etkili bir şekilde toplar. Müşteriler, ayrıntıları doğal sohbet yoluyla kolayca sağlarken, ekibiniz API entegrasyonu sayesinde önceden tam verilere sahip olur"
+  
   },
   
   "Navbar":{
@@ -28,7 +35,9 @@
     "Russian": "Rusça",
     "Estonian": "Estonca",
     "Turkish": "Türkçe",
-    "Login":"Kayıt Ol / Giriş yap"
+    "Login":"Giriş yap",
+    "SignUp":"Kayıt Ol",
+    "blog_url":"https://blog.sunai.ee"
   },
   "Pricing":{
     "Title":"Fiyatlar",

@@ -5,10 +5,19 @@ import Footer from "./../Footer";
 import React from "react";
 import { useTranslations } from "next-intl";
 
+// This metadata constant is removed because we will fetch metadata dynamically based on the page
+
 const About = () => {
   const t = useTranslations("About");
+  // Add dynamic metadata fetching at the top of the component
+  const metadata = useTranslations("AboutMetadata");
+
   return (
     <div>
+      <head>
+        <title>{metadata.title}</title>
+        <meta name="description" content={metadata.description} />
+      </head>
       <Navbar />
       <section class="bg-white dark:bg-gray-900">
         <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-12">

@@ -8,6 +8,7 @@ import {
   Button,
   Avatar,
   Spinner,
+  Card,
 } from "flowbite-react";
 import { v4 as uuidv4 } from "uuid";
 import Navbar from "./Navbar";
@@ -189,7 +190,7 @@ function Page() {
   return (
     <div>
       <Navbar />
-      <section class="bg-white dark:bg-gray-900">
+      <section class="bg-gray-50 dark:bg-gray-900">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-screen-xl px-4 lg:px-12 py-8 lg:py-16 lg:grid-cols-12 justify-center items-center">
           <div class="mr-auto place-self-center lg:col-span-8">
             <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
@@ -202,7 +203,7 @@ function Page() {
             <iframe
               src={`https://a.sunai.ee/c?bot=${t("botId")}`}
               width="100%"
-              height="490"
+              height="400"
               allow="microphone *"
               style={{
                 maxWidth: 640,
@@ -219,6 +220,36 @@ function Page() {
               frameborder="0"
               allowfullscreen
             ></iframe>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-screen-xl px-4 lg:px-12 py-8 lg:py-16 justify-center items-center">
+          <div className="lg:mt-0 lg:col-span-8 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Card className="max-w-sm">
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                {t("card_title_1")}
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                {t("card_descr_1")}
+              </p>
+            </Card>
+            <Card className="max-w-sm">
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                {t("card_title_2")}
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                {t("card_descr_2")}
+              </p>
+            </Card>
+            <Card className="max-w-sm">
+              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                {t("card_title_3")}
+              </h5>
+              <p className="font-normal text-gray-700 dark:text-gray-400">
+                {t("card_descr_3")}
+              </p>
+            </Card>
           </div>
         </div>
       </section>

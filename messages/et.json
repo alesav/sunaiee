@@ -1,7 +1,7 @@
 {
   "Home": {
     "heroTitle": "Tere tulemast Sunrise AI-sse!",
-    "heroDescription": "Toome tehisintellekti teie ettevõttesse!",
+    "heroDescription": "Viige oma ettevõtte toimimine uuele tasemele Sunrise AI tipptehnoloogiliste lahendustega. Meie AI-assistendid lõimuvad sujuvalt teie töövoogudesse, automatiseerides korduvaid ülesandeid tõhususe suurendamiseks ja erakordse kliendikogemuse pakkumiseks",
     "youtube_id": "https://www.youtube.com/embed/yH7g0lM3P08",
     "input_placeholder": "Sisestage küsimus siia...",
     "voice_lang":"et",
@@ -11,7 +11,14 @@
     "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
     "user_name":"Teie",
     "botId":"cd07b0c3-fb09-4b7f-bdf8-1725f5993fc0",
-    "voiceLanguage": "et"
+    "voiceLanguage": "et",
+    "card_title_1":"Teie virtuaalne majutusteenuste giid",
+    "card_descr_1":"Meie mitmekeelne AI-assistent on avatud 24/7, et vastata külaliste küsimustele, käsitleda päringuid ja tagada sujuv külastajate teenindamine. Ärge laske sõnumitel vastuseta jääda ega külalistel rahuolematul olla.",
+    "card_title_2":"Mugav veebipõhine broneerimine AI abil",
+    "card_descr_2":"Meie nutikas broneeringuassistent muudab broneerimisprotsessi lihtsaks. Küsige lihtsalt soovitud aja kohta ja AI kontrollib kohe saadavust ning kinnitab broneeringu ilma vormita ja vaevata. Koguge mugavat vestlusvormis broneerimist.",
+    "card_title_3":"AI-assistent andmete kergemaks kogumiseks",
+    "card_descr_3":"Meie nutikas chatbot kogub kõik vajalikud andmed klientidelt enne värbamist, teenuste osutamist jms. Kliendid saavad mugavalt andmed anda loomuliku vestluse käigus ning teie meeskond saab vajalikud andmed API kaudu. "
+  
   },
   "Navbar":{
     "About": "Meist",
@@ -27,7 +34,9 @@
     "Russian": "Vene",
     "Estonian": "Eesti",
     "Turkish": "Türgi",
-    "Login":"Registreeru / Logi sisse"
+    "Login":"Logi sisse",
+    "SignUp":"Registreeru",
+    "blog_url":"https://blog-ee.sunai.ee"
   },
   "Footer":{
     "About": "Meist",
@@ -36,6 +45,8 @@
     "Contact": "Kontakt"
   },
   "Pricing":{
+    "metaTitle": "Welcome to Sunrise AI - Home",
+    "metaDescription": "Enhance your intuition with our online simulator! - Home Page",
     "Title":"Pricing Title",
     "Description":"Please check our plans below. Free tier is suitable for small companies, Airbnb hosts and AI enthusiasts.",
     "Free_tier":"Free tier",
