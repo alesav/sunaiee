@@ -193,10 +193,10 @@ function Homepage() {
       <section class="bg-gray-100 dark:bg-gray-900">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mx-auto max-w-screen-xl px-4 lg:px-12 py-8 lg:py-16 lg:grid-cols-12 justify-center items-center">
           <div class="mr-auto place-self-center lg:col-span-8">
-            <h1 class="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+            <h1 class="max-w-3xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
               {t("heroTitle")}
             </h1>
-            <p class="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            <p class="max-w-3xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               {t("heroDescription")}
             </p>
 

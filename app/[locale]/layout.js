@@ -33,6 +33,20 @@ export default async function RootLayout({ children, params: { locale } }) {
           {children}
         </NextIntlClientProvider>
       </body>
+      <span id="wts2157992"></span>
+      <script>
+        var wts=document.createElement('script');wts.async=true;
+        wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
+        wts.onload = function(){wtslog7(2157992, 1)};
+      </script>
+      <noscript>
+        <a href="https://www.web-stat.com">
+          <img
+            src="https://app.ardalio.com/7/1/2157992.png"
+            alt="Web-Stat web statistics"
+          />
+        </a>
+      </noscript>
     </html>
   );
 }
