@@ -3,7 +3,7 @@ import {
   Pathnames,
 } from "next-intl/navigation";
 
-export const locales = ["en", "ru", "et", "tr", "uk"];
+export const locales = ["en", "ru", "et", "tr", "uk", "es"];
 
 // The `pathnames` object holds pairs of internal
 // and external paths, separated by locale.

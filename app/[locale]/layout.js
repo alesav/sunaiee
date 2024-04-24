@@ -10,7 +10,7 @@ export const runtime = "edge";
 
 const inter = Inter({ subsets: ["latin"] });
 
-const locales = ["en", "ru", "et", "tr"];
+const locales = ["en", "ru", "et", "tr", "uk", "es"];
 
 export default async function RootLayout({ children, params: { locale } }) {
   let messages;
