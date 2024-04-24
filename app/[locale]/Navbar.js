@@ -93,6 +93,11 @@ function Navbar() {
             </Link>
           </Dropdown.Item>
           <Dropdown.Item>
+            <Link locale="uk" href="/">
+              {t("Ukrainian")}
+            </Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
             <Link locale="ru" href="/">
               {t("Russian")}
             </Link>
@@ -105,6 +110,11 @@ function Navbar() {
           <Dropdown.Item>
             <Link locale="tr" href="/">
               {t("Turkish")}
+            </Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
+            <Link locale="es" href="/">
+              {t("Spanish")}
             </Link>
           </Dropdown.Item>
         </Dropdown>

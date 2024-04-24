@@ -94,9 +94,9 @@
       "20_models": "20+ LLM models"
 
     },
-    "Contact":{
-      "metaTitle": "Sunrise AI - Contact",
-      "metaDescription": "Enhance your intuition with our online simulator!",
-      "Title":"Contact Title"
-    }
+    "Contact":{ 
+      "metaTitle": "Sunrise AI - İletişim", 
+      "metaDescription": "Bize yazın, doğrudan iletişim bilgilerimiz şunlardır", 
+      "Title":"İletişim", 
+      "First_text": "Size bir sohbet robotunda bize yazmayı veya web sitesindeki bir robota isteğinizi bırakmanızı önerebilirdik, ancak gerçek bir kişiyle konuşmak istediğinizi düşünüyoruz. Biz de canlı iletişimi seviyoruz, bu yüzden doğrudan iletişim bilgilerimiz şunlardır:" }
   }
