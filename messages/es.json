@@ -67,9 +67,22 @@
     "BtcPredictionTitle": "Precios futuros de Binance BTC/USDT"
   },
   "About":{
-    "metaTitle": "Acerca de Sunrise AI",
+    "metaTitle": "Sobre Sunrise AI",
     "metaDescription": "Revoluciona las operaciones de tu negocio con las soluciones de vanguardia de IA de Sunrise AI.",
-    "Title":"Título Acerca de nosotros"
+    "Title":"Sobre Sunrise AI",
+    "Who_are_we": "¿Quiénes somos?",
+    "block_1": "Sunrise AI es una empresa familiar fundada por Alexander, experto en tecnología, y Darina, responsable de ventas y atención al cliente. Alexander tiene más de 20 años de experiencia en TI y, en los últimos años, se ha dedicado activamente a la automatización y optimización de procesos empresariales.",
+    "block_2": "Cuando nos dimos cuenta de que la inteligencia artificial podía asumir tareas comerciales y realizarlas las 24 horas del día en diferentes idiomas, comenzamos a implementar la IA en nuestros proyectos. Esto condujo a interesantes desarrollos que nos gustaría compartir y al surgimiento del proyecto Sunrise AI.",
+    "block_3": "Sunrise AI es un nombre muy simbólico. Creemos que la aparición de la inteligencia artificial representa una revolución no menos significativa que la llegada de la electricidad o Internet. Hoy en día no podemos imaginar la vida sin Internet o electricidad, así como en un futuro próximo no podremos funcionar eficientemente sin IA. Esta área se está desarrollando activamente y ya ha logrado resultados impresionantes.",
+    "block 4": "En nuestra empresa solo hay dos personas, pero el número de nuestros 'empleados es significativamente mayor. La mayoría de los procesos ya han sido delegados a la inteligencia artificial. Incluso este texto fue editado por un redactor de IA. Planeamos expandirnos, y para ello planeamos contratar robots.",
+    "block_5": "¿Qué ofrecemos?",
+    "block_6": "Los principales clientes de Sunrise AI son pequeñas y medianas empresas que buscan optimizar y automatizar diferentes procesos en su negocio. Ya contamos con muchos desarrollos propios: algunos son privados, otros están disponibles públicamente, y otros son módulos similares a bloques de Lego con los que se puede armar una solución interesante, teniendo en cuenta las necesidades del cliente. Si desea hacer que su negocio sea más productivo, pero no sabe cómo implementarlo técnicamente, ¡contáctenos y le ayudaremos! Garantizo que se comunicará con una persona real.",
+    "block_7": "Proyectos disponibles actualmente:",
+    "block_8": "Asistente virtual para huéspedes de hotel. Esta herramienta descargará a su personal, ayudará a vender servicios adicionales, estará disponible para responder 24/7 en diferentes idiomas y mejorará el nivel de servicio en el hotel.",
+    "block_9": "Módulo de asistente virtual en el sitio web. Este módulo está disponible en la página principal de nuestro sitio web y ayudará a responder todas las preguntas de los clientes, además de aumentar la conversión de ventas.",
+    "block_10": "Asistente virtual para redes sociales: Telegram, Instagram, Facebook, WhatsApp. No hay presentaciones disponibles, pero la herramienta ya está funcionando. Contáctenos para obtener más información.",
+    "block_11": "Acelerador de creación de contenido. Simplemente dicte un mensaje de audio y cree publicaciones de calidad para Instagram, artículos o simplemente mensajes de texto en diferentes idiomas. Esta herramienta está disponible de forma gratuita en su cuenta personal.",
+    "block_12": "Nuevas funciones en proceso de agregarse..."
   },
   "Pricing":{
     "metaTitle": "Sunrise AI - Precios",

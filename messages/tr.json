@@ -75,5 +75,23 @@
     "BtcUsdt15": {
       "BtcGraphTitle": "Binance BTC/USDT grafiği, 15 dakika",
       "BtcPredictionTitle": "Binance BTC/USDT vadeli fiyatları"
+    },
+    "About":{
+      "metaTitle": "Sunrise AI Hakkında",
+      "metaDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge AI solutions.",
+      "Title":"Sunrise AI Hakkında",
+      "Who_are_we": "Biz Kimiz?",
+      "block_1": "Sunrise AI, teknoloji uzmanı Alexander ve satış ve müşteri ilişkilerinden sorumlu Darina tarafından kurulan bir aile işletmesidir. Alexander'ın 20 yıldan fazla BT deneyimi vardır ve son yıllarda işletme süreçlerinin otomasyonu ve optimizasyonu üzerine yoğunlaşmıştır.",
+      "block_2": "Yapay zekanın işletme görevlerini üstlenebileceğini ve farklı dillerde 7/24 yerine getirebileceğini fark ettiğimizde, projelerimize yapay zekayı entegre etmeye başladık. Bu, paylaşmak istediğimiz ilginç gelişmelerin ortaya çıkmasına ve Sunrise AI projesinin doğmasına yol açtı.",
+      "block_3": "Sunrise AI oldukça sembolik bir isimdir. Yapay zekanın ortaya çıkışının, elektriğin veya internetin icadı kadar önemli bir devrim olduğuna inanıyoruz. Bugün internetsiz veya elektriksiz bir hayat düşünemediğimiz gibi, yakın gelecekte yapay zekasız etkili bir şekilde işlev göremeyeceğiz. Bu alan hızla gelişmekte ve şimdiden etkileyici sonuçlar elde etmiştir.",
+      "block 4": "Şirketimizde sadece iki kişi bulunmakla birlikte, 'çalışan' sayımız oldukça fazladır. Çoğu süreç zaten yapay zekaya devredilmiştir. Hatta bu metin bile bir yapay zeka kopyaedicisi tarafından düzenlenmiştir. Genişlemeyi planlıyoruz ve bu amaçla robotları işe almayı düşünüyoruz.",
+      "block_5": "Ne Sunuyoruz?",
+      "block_6": "Sunrise AI'nın başlıca müşterileri, işlerindeki çeşitli süreçleri optimize etmeye ve otomatikleştirmeye çalışan küçük ve orta ölçekli şirketlerdir. Birçok kendi geliştirmemiz bulunmaktadır: Bazıları özeldir, bazıları halka açıktır, diğerleri ise müşteri ihtiyaçlarına göre ilginç bir çözüm oluşturmak için Lego parçalarına benzer modüllerdir. İşinizi daha verimli hale getirmek istiyorsanız ancak bunu teknik olarak nasıl uygulayacağınızı bilmiyorsanız, bize başvurun ve size yardımcı olalım. Gerçek bir insanla iletişim kuracağınızı garanti ederim!",
+      "block_7": "Şu Anda Mevcut Projeler:",
+      "block_8": "Otel misafirleri için sanal asistan. Bu araç personelinizin iş yükünü hafifletecek, ek hizmetlerin satılmasına yardımcı olacak, farklı dillerde 7/24 yanıt verebilecek ve oteldeki hizmet seviyesini artıracaktır.",
+      "block_9": "eb sitesinde sanal asistan modülü. Bu modül, web sitemizin ana sayfasında mevcuttur ve müşteri sorularının tamamına cevap vermeye yardımcı olacak ve ayrıca satış dönüşümünü artıracaktır.",
+      "block_10": "Sosyal medya için sanal asistan: Telegram, Instagram, Facebook, WhatsApp. Sunumlar mevcut değil ancak araç zaten çalışıyor. Daha fazla bilgi için bizimle iletişime geçin.",
+      "block_11": "İçerik oluşturma hızlandırıcısı. Sadece bir sesli mesaj dikteyle Instagram için kaliteli gönderiler, makaleler veya farklı dillerdeki basit metin mesajları oluşturun. Bu araç kişisel hesabınızda ücretsiz olarak mevcuttur.",
+      "block_12": "Yeni özellikler ekleme süreci devam ediyor..."
     }
   }

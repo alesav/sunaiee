@@ -18,7 +18,21 @@ const About = () => {
           <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-grey-900 md:text-4xl lg:text-5xl dark:text-white">
             {t("Title")}
           </h1>
-          <p>This is a basic Next.js page.</p>
+          <h2>{t("Who_are_we")}</h2>
+          <p>{t("block_1")}</p>
+          <p>{t("block_2")}</p>
+          <p>{t("block_3")}</p>
+          <p>{t("block_4")}</p>
+          <h2>{t("block_5")}</h2>
+          <p>{t("block_6")}</p>
+          <h3>{t("block_7")}</h3>
+          <ul>
+            <li>{t("block_8")}</li>
+            <li>{t("block_9")}</li>
+            <li>{t("block_10")}</li>
+            <li>{t("block_11")}</li>
+            <li>{t("block_12")}</li>
+          </ul>
         </div>
       </section>
       <Footer />
