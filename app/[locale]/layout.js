@@ -33,12 +33,40 @@ export default async function RootLayout({ children, params: { locale } }) {
           {children}
         </NextIntlClientProvider>
       </body>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+      
+                ym(97116058, "init", {
+                      clickmap:true,
+                      trackLinks:true,
+                      accurateTrackBounce:true,
+                      webvisor:true
+                });
+              `,
+        }}
+      />
+      <noscript>
+        <div>
+          <img
+            src="https://mc.yandex.ru/watch/97116058"
+            style={{ position: "absolute", left: "-9999px" }}
+            alt=""
+          />
+        </div>
+      </noscript>
+
       <span id="wts2157992"></span>
-      <script>
-        var wts=document.createElement('script');wts.async=true;
-        wts.src='https://app.ardalio.com/log7.js';document.head.appendChild(wts);
-        wts.onload = function(){wtslog7(2157992, 1)};
-      </script>
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `  var wts=document.createElement(&quot;script&quot;);wts.async=true;
+          wts.src=&quot;https://app.ardalio.com/log7.js&quot;;document.head.appendChild(wts);
+          wts.onload = function(){wtslog7(2157992, 1)};`,
+        }}
+      />
       <noscript>
         <a href="https://www.web-stat.com">
           <img
