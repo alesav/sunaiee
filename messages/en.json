@@ -42,7 +42,8 @@
     "Turkish": "Turkish",
     "Login":"Login",
     "SignUp":"Sign up",
-    "blog_url":"https://blog.sunai.ee"
+    "blog_url":"https://blog.sunai.ee",
+    "about_us_url": "https://blog.sunai.ee/about"
   },
   "Footer":{
     "About": "About",

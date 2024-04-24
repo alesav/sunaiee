@@ -37,7 +37,8 @@
     "Turkish": "Türkçe",
     "Login":"Giriş yap",
     "SignUp":"Kayıt Ol",
-    "blog_url":"https://blog.sunai.ee"
+    "blog_url":"https://blog.sunai.ee",
+    "about_us_url": "https://blog.sunai.ee/about"
   },
   "Pricing":{
     "Title":"Fiyatlar",

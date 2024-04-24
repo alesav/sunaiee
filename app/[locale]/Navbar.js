@@ -54,7 +54,9 @@ function Navbar() {
         <FlowbiteNavbar.Toggle />
       </div>
       <FlowbiteNavbar.Collapse>
-        <FlowbiteNavbar.Link href="/about">{t("About")}</FlowbiteNavbar.Link>
+        <FlowbiteNavbar.Link href={t("about_us_url")}>
+          {t("About")}
+        </FlowbiteNavbar.Link>
         <FlowbiteNavbar.Link href="/pricing">
           {t("Pricing")}
         </FlowbiteNavbar.Link>

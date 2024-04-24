@@ -36,7 +36,8 @@
     "Turkish": "Турецкий",
     "Login":"Войти",
     "SignUp":"Регистрация",
-    "blog_url":"https://blog-ru.sunai.ee"
+    "blog_url":"https://blog-ru.sunai.ee",
+    "about_us_url": "https://blog.sunai.ee/about"
   },  
   "Footer":{
     "About": "О нас",

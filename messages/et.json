@@ -36,7 +36,8 @@
     "Turkish": "Türgi",
     "Login":"Logi sisse",
     "SignUp":"Registreeru",
-    "blog_url":"https://blog-ee.sunai.ee"
+    "blog_url":"https://blog-ee.sunai.ee",
+    "about_us_url": "https://blog.sunai.ee/about"
   },
   "Footer":{
     "About": "Meist",
@@ -79,5 +80,15 @@
     "BtcUsdt15": {
       "BtcGraphTitle": "Binance BTC/USDT graph, 15min",
       "BtcPredictionTitle": "Binance BTC/USDT future prices"
+    },
+    "About":{
+      "metaTitle": "About Sunrise AI",
+      "metaDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge AI solutions.",
+      "Title":"About us Title"
+    },
+    "Contact":{
+      "metaTitle": "Sunrise AI - Contact",
+      "metaDescription": "Enhance your intuition with our online simulator!",
+      "Title":"Contact Title"
     }
   }
