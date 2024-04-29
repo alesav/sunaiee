@@ -51,7 +51,9 @@
     "About": "About",
     "Pricing":"Pricing",
     "Blog":"Blog",
-    "Contact": "Contact"
+    "Contact": "Contact",
+    "blog_url":"https://blog.sunai.ee",
+    "about_us_url": "https://blog.sunai.ee/about"
   },
     "Intuition": {
       "heroTitle": "Boost Intuition: Trust Your Gut!!",

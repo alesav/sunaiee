@@ -17,7 +17,7 @@
     "hint":"¡Pregúntame sobre nuestros proyectos, precios y más!",
     "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
     "user_name":"Tú",
-    "botId":"c2182e79-f387-4a4e-934f-d53ce30d077f",
+    "botId":"cfbf1e25-b5ea-4d74-87d0-673d57a2dc7c",
     "voiceLanguage": "es-ES",
     "card_title_1":"Tu conserje virtual de hospitalidad",
     "card_descr_1":"Nunca dejes esperando a tus huéspedes con nuestro asistente de IA multilingüe. Está disponible 24/7 para responder preguntas, manejar solicitudes y garantizar una experiencia fluida para los huéspedes. Di adiós a los mensajes perdidos y clientes infelices.",
@@ -45,13 +45,15 @@
     "Login":"Iniciar sesión",
     "SignUp":"Registrarse",
     "blog_url":"https://blog.sunai.ee",
-    "about_us_url": "https://blog.sunai.ee/about"
+    "about_us_url": "/about"
   },
   "Footer":{
     "About": "Acerca de",
     "Pricing":"Precios",
     "Blog":"Blog",
-    "Contact": "Contacto"
+    "Contact": "Contacto",
+    "blog_url":"https://blog.sunai.ee",
+    "about_us_url": "/about"
   },
   "Intuition": {
     "heroTitle": "¡Impulsa tu intuición: Confía en tu instinto!",

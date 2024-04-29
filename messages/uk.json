@@ -10,7 +10,7 @@
        "hint":"Запитайте мене про проєкт, ціни та багато іншого!",
        "assistant_photo":"https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp",
        "user_name":"Ви",
-       "botId":"ccd475aa-a6c8-4452-bdd4-657f521c8b6a",
+       "botId":"6a3b036b-f7b4-4ba5-b61f-9de18c8b2307",
        "voiceLanguage":"uk",
        "card_title_1":"Ваш готельний ІІ-консьєрж",
        "card_descr_1":"операції вашого бізнесу з передовими рішеннями Sunrise AI. Наші ІІ-асистенти бездоганно інтегруються у ваші робочі процеси, автоматизуючи повторювані завдання для підвищення ефективності та забезпечення виняткового обслуговування клієнтів",
@@ -44,7 +44,9 @@
        "About":"Про нас",
        "Pricing":"Ціни",
        "Blog":"Блог",
-       "Contact":"Контакт"
+       "Contact":"Контакт",
+       "blog_url":"https://blog-uk.sunai.ee",
+       "about_us_url":"https://blog-uk.sunai.ee/about"
     },
     "Intuition":{
        "heroTitle":"Розвивай інтуїцію, довіряй собі!",

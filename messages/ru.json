@@ -39,13 +39,15 @@
     "Login":"Войти",
     "SignUp":"Регистрация",
     "blog_url":"https://blog-ru.sunai.ee",
-    "about_us_url": "https://blog.sunai.ee/about"
+    "about_us_url": "https://blog-ru.sunai.ee/about"
   },  
   "Footer":{
     "About": "О нас",
     "Pricing":"Цены",
     "Blog":"Блог",
-    "Contact": "Контакт"
+    "Contact": "Контакт",
+    "blog_url":"https://blog-ru.sunai.ee",
+    "about_us_url": "https://blog-ru.sunai.ee/about"
   },
   "Intuition": {
       "heroTitle": "Прокачай интуицию, доверься себе!",

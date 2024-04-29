@@ -45,7 +45,9 @@
     "About": "Meist",
     "Pricing":"Hinnad",
     "Blog":"Blogi",
-    "Contact": "Kontakt"
+    "Contact": "Kontakt",
+    "blog_url":"https://blog-ee.sunai.ee",
+    "about_us_url": "/about"
   },
   "Pricing":{
     "metaTitle": "Welcome to Sunrise AI - Home",
