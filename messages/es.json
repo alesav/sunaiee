@@ -114,5 +114,22 @@
     "Title":"Contacto",
     "First_text": "Podríamos ofrecerle escribirnos en un chatbot o dejar su solicitud a un robot en el sitio web, pero creemos que usted quiere hablar con una persona real. A nosotros también nos gusta la comunicación en vivo, así que aquí están nuestros contactos directos:"
     
-  }
+  },
+  "Birthday": 
+  { 
+    "heroTitle": "Deseos de cumpleaños de IA", 
+    "heroDescription": "La forma más rápida de generar un deseo de cumpleaños", 
+    "youtube_id": "https://www.youtube.com/embed/KtppEwQ0fPg", 
+    "card_title_1": "Tu asistente virtual de hospitalidad", 
+    "card_descr_1": "Nunca dejes esperando a tus huéspedes con nuestro asistente de IA multilingüe. Está disponible 24/7 para responder preguntas, manejar solicitudes y garantizar una experiencia sin problemas. Di adiós a los mensajes perdidos y clientes infelices.", 
+    "card_title_2": "Reserva online sin esfuerzo impulsada por IA", 
+    "card_descr_2": "Nuestro asistente inteligente de reservas agiliza el proceso de reserva. Simplemente pregunta sobre la disponibilidad para el momento deseado, y la IA instantáneamente verificará y confirmará tu reserva, sin formularios ni complicaciones. Experimenta la comodidad de la reserva conversacional.", 
+    "card_title_3": "Solución de recopilación de datos de IA", 
+    "card_descr_3": "Nuestro chatbot inteligente recopila eficientemente toda la información requerida de los clientes antes de las evaluaciones de RRHH, citas de servicio y más. Al permitir que los clientes proporcionen detalles de manera conveniente a través de una conversación natural, tu equipo recibe los datos completos de antemano a través de la integración de API. Ahorra tiempo, aumenta la eficiencia.", 
+    "start_recording": "Iniciar grabación", 
+    "stop_recording": "Detener grabación", 
+    "create_ai_wish": "Crear deseo de cumpleaños de IA", 
+    "placeholder": "Escribe aquí las pistas de cumpleaños...", 
+    "model": "gemini", 
+  "language": "Spanish" }
 }

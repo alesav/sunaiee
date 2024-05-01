@@ -109,5 +109,21 @@
       "metaDescription": "Enhance your intuition with our online simulator!",
       "Title":"Kontakt",
       "First_text": "Me võiksime pakkuda teile võimalust kirjutada meile vestlusrobotile või jätta oma taotlus robotile veebisaidil, kuid me arvame, et soovite rääkida päris inimesega. Meile meeldib ka elav suhtlus, seega siin on meie otsekontaktid:"
-    }
+    },
+    "Birthday": { 
+      "heroTitle": "AI sünnipäevasoovid", 
+      "heroDescription": "Kiireim viis sünnipäevasoovi genereerimiseks", 
+      "youtube_id": "https://www.youtube.com/embed/KtppEwQ0fPg", 
+      "card_title_1": "Teie virtuaalne külalislahkuse kontsjerž", 
+      "card_descr_1": "Ärge kunagi jätke oma külalisi ootama meie mitmekeelse AI-assistendiga. See on saadaval 24/7 küsimustele vastamiseks, päringute käsitlemiseks ja külastajate sujuva kogemuse tagamiseks. Jätke hüvasti kadunud sõnumite ja õnnetute klientidega.", 
+      "card_title_2": "Lihtsustatud broneerimiskogemus AI abil", 
+      "card_descr_2": "Meie nutikas broneeringuassistent muudab broneerimisprotsessi lihtsaks. Küsige lihtsalt soovitud aja kohta ja AI kontrollib ja kinnitab teie broneeringu kohe - ilma vormideta, ilma vaevata. Nautige broneerimise mugavust vestluses.", 
+      "card_title_3": "AI andmekogumislahendus", 
+      "card_descr_3": "Meie nutikas vestlusrobotassistent kogub tõhusalt kogu vajaliku teabe klientidelt enne personaliülevaatusi, teenindusaegu ja muud. Klientidel on mugav anda üksikasju loomuliku vestluse kaudu, nii et teie meeskond saab kogu vajaliku teabe ette läbi API liidese. Säästke aega, suurendage tõhusust.", 
+      "start_recording": "Alusta salvestamist", 
+      "stop_recording": "Lõpeta salvestamine", 
+      "create_ai_wish": "Loo AI sünnipäevasoov", 
+      "placeholder": "Kirjuta siia sünnipäevavihjeid...",
+       "model": "gemini", 
+    "language": "Estonian" }
   }

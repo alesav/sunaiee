@@ -65,6 +65,11 @@ function Navbar() {
         </FlowbiteNavbar.Link>
         <Dropdown label={t("Projects")} inline>
           <Dropdown.Item>
+            <FlowbiteNavbar.Link href="ai-birthday-wishes">
+              {t("ai_birthday_wishes")}
+            </FlowbiteNavbar.Link>
+          </Dropdown.Item>
+          <Dropdown.Item>
             <FlowbiteNavbar.Link href="btcusdt15">
               {t("BTC_prediction")}
             </FlowbiteNavbar.Link>

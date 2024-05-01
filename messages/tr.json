@@ -101,5 +101,21 @@
       "block_10": "Sosyal medya için sanal asistan: Telegram, Instagram, Facebook, WhatsApp. Sunumlar mevcut değil ancak araç zaten çalışıyor. Daha fazla bilgi için bizimle iletişime geçin.",
       "block_11": "İçerik oluşturma hızlandırıcısı. Sadece bir sesli mesaj dikteyle Instagram için kaliteli gönderiler, makaleler veya farklı dillerdeki basit metin mesajları oluşturun. Bu araç kişisel hesabınızda ücretsiz olarak mevcuttur.",
       "block_12": "Yeni özellikler ekleme süreci devam ediyor..."
-    }
+    },
+    "Birthday": { 
+      "heroTitle": "AI Doğumgünü Dileği", 
+      "heroDescription": "Doğumgünü dileği oluşturmanın en hızlı yolu", 
+      "youtube_id": "https://www.youtube.com/embed/KtppEwQ0fPg", 
+      "card_title_1": "Sanal Konukseverlik Konsiyerji", 
+      "card_descr_1": "Çok dilli AI asistanımızla hiçbir zaman misafirlerinizi bekletmeyin. Sorulara cevap vermek, talepleri karşılamak ve sorunsuz bir misafir deneyimi sağlamak için 7/24 hizmetinizdedir. Kaçırılmış mesajlara ve mutsuz müşterilere veda edin.", 
+      "card_title_2": "AI Destekli Kolay Çevrimiçi Rezervasyon", 
+      "card_descr_2": "Akıllı rezervasyon asistanımız, rezervasyon sürecini kolaylaştırır. Sadece istediğiniz zaman için müsaitlik durumunu sorun ve AI anında rezervasyonunuzu kontrol edip onaylasın - formlar yok, zahmet yok. Konuşarak rezervasyon yapmanın kolaylığını yaşayın.", 
+      "card_title_3": "AI Veri Toplama Çözümü", 
+      "card_descr_3": "Akıllı sohbet robotumuz, müşterilerden İK taramalarından, servis randevularından ve daha fazlasından önce gerekli tüm bilgileri verimli bir şekilde toplar. Müşterilerin ayrıntıları doğal bir konuşma yoluyla rahatça sağlamasıyla, ekibiniz API entegrasyonu aracılığıyla önceden tüm verileri alır. Zamandan tasarruf edin, verimliliği artırın.", 
+      "start_recording": "Kaydetmeye Başla", 
+      "stop_recording": "Kaydetmeyi Durdur", 
+      "create_ai_wish": "AI Doğumgünü Dileği Oluştur", 
+      "placeholder": "Buraya doğumgünü ipuçlarını yazın...", 
+      "model": "gemini", 
+    "language": "Turkish" }
   }
