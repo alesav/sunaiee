@@ -103,6 +103,8 @@
       "block_12": "Yeni özellikler ekleme süreci devam ediyor..."
     },
     "Birthday": { 
+      "metaTitle": "Ücretsiz Yapay Zeka Doğum Günü Dilek Oluşturucu",
+      "metaDescription": "Genel tebrikleri unutun! Yapay Zeka destekli, kalbe dokunan benzersiz doğum günü dilekleri oluşturun. Hemen başlayın!",
       "heroTitle": "AI Doğumgünü Dileği", 
       "heroDescription": "Doğumgünü dileği oluşturmanın en hızlı yolu", 
       "youtube_id": "https://www.youtube.com/embed/91PgSxsGxVQ", 
@@ -117,5 +119,11 @@
       "create_ai_wish": "AI Doğumgünü Dileği Oluştur", 
       "placeholder": "Buraya doğumgünü ipuçlarını yazın...", 
       "model": "gemini", 
-    "language": "Turkish" }
+    "language": "Turkish",
+    "step_1_title": "Yazın veya Dikte Ettirin",
+  "step_2_title": " düğmesine tıklayın",
+  "step_3_title": "Dileğinizi Kopyalayın",
+  "step_1_descr": "Arkadaşınız hakkında sadece birkaç bilgi ekleyin.",
+  "step_2_descr": "Ve kişiselleştirilmiş dileğiniz oluşturulacak.",
+  "step_3_descr": "Ve onu favori mesajlaşma uygulamanıza yapıştırın." }
   }

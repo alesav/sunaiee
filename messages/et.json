@@ -111,6 +111,8 @@
       "First_text": "Me võiksime pakkuda teile võimalust kirjutada meile vestlusrobotile või jätta oma taotlus robotile veebisaidil, kuid me arvame, et soovite rääkida päris inimesega. Meile meeldib ka elav suhtlus, seega siin on meie otsekontaktid:"
     },
     "Birthday": { 
+      "metaTitle": "Tasuta AI sünnipäevasoovide generaator",
+      "metaDescription": "Unustage standardsed tervitused! Looge ainulaadseid, AI-põhiseid sünnipäevasoove, mis puudutavad südant. Alustage kohe!",
       "heroTitle": "AI sünnipäevasoovid", 
       "heroDescription": "Kiireim viis sünnipäevasoovi genereerimiseks", 
       "youtube_id": "https://www.youtube.com/embed/91PgSxsGxVQ", 
@@ -125,5 +127,12 @@
       "create_ai_wish": "Loo AI sünnipäevasoov", 
       "placeholder": "Kirjuta siia sünnipäevavihjeid...",
        "model": "gemini", 
-    "language": "Estonian" }
+    "language": "Estonian",
+    "step_1_title": "Kirjuta või dikteeri",
+    "step_2_title": "Klõpsa nupule",
+    "step_3_title": "Kopeeri oma soov",
+    "step_1_descr": "Lisa lihtsalt paar detaili oma sõbra kohta.",
+    "step_2_descr": "Ja sinu personaalne soov luuakse.",
+    "step_3_descr": "Ning kopeeri see oma lemmik messengerisse." 
+  }
   }

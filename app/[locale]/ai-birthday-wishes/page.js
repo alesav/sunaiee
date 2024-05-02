@@ -22,8 +22,8 @@ export async function generateMetadata({ params, params: { locale } }, parent) {
   }
 
   return {
-    title: messages.About.metaTitle,
-    description: messages.About.metaDescription,
+    title: messages.Birthday.metaTitle,
+    description: messages.Birthday.metaDescription,
   };
 }
 

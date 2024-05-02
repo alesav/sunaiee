@@ -246,10 +246,11 @@ const Birthday = () => {
           <div className="lg:mt-0 lg:col-span-5 lg:flex items-center justify-center">
             <iframe
               type="text/html"
-              width="600"
+              width="100%"
               height="330"
               src={t("youtube_id")}
               frameborder="0"
+              style={{ maxWidth: "600px" }} // add max width for phones
             ></iframe>
           </div>
         </div>
@@ -275,62 +276,123 @@ const Birthday = () => {
             ))}
           </div>
           <div className="flex items-center justify-center p-10">
-            <ol class="items-center w-full space-y-4 sm:flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
-              <li class="flex items-center text-blue-600 dark:text-blue-500 space-x-2.5 rtl:space-x-reverse">
-                <span class="flex items-center justify-center w-8 h-8 border border-blue-600 rounded-full shrink-0 dark:border-blue-500">
-                  1
-                </span>
-                <span>
-                  <h3 class="font-medium leading-tight">User info</h3>
-                  <p class="text-sm">Step details here</p>
-                </span>
-              </li>
-              <li class="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
-                <span class="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
-                  2
-                </span>
-                <span>
-                  <h3 class="font-medium leading-tight">Company info</h3>
-                  <p class="text-sm">Step details here</p>
-                </span>
-              </li>
-              <li class="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
-                <span class="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
-                  3
-                </span>
-                <span>
-                  <h3 class="font-medium leading-tight">Payment info</h3>
-                  <p class="text-sm">Step details here</p>
-                </span>
-              </li>
-            </ol>
+            <div className="flex justify-center">
+              <ol class="items-center w-full space-y-4 sm:flex sm:space-x-8 sm:space-y-0 rtl:space-x-reverse">
+                <li class="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
+                  <span class="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
+                    1
+                  </span>
+                  <span>
+                    <h3 class="font-medium leading-tight">
+                      {t("step_1_title")}
+                    </h3>
+                    <p class="text-sm">{t("step_1_descr")}</p>
+                  </span>
+                </li>
+                <li class="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
+                  <span class="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
+                    2
+                  </span>
+                  <span>
+                    <h3 class="font-medium leading-tight">
+                      {t("step_2_title")}
+                    </h3>
+                    <p class="text-sm">{t("step_1_descr")}</p>
+                  </span>
+                </li>
+                <li class="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
+                  <span class="flex items-center justify-center w-8 h-8 border border-gray-500 rounded-full shrink-0 dark:border-gray-400">
+                    3
+                  </span>
+                  <span>
+                    <h3 class="font-medium leading-tight">
+                      {t("step_3_title")}
+                    </h3>
+                    <p class="text-sm">{t("step_1_descr")}</p>
+                  </span>
+                </li>
+              </ol>
+            </div>
           </div>
-          <div className="lg:mt-0 lg:col-span-8 grid grid-cols-1 md:grid-cols-3 gap-4">
-            <Card className="max-w-sm">
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                {t("card_title_1")}
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                {t("card_descr_1")}
-              </p>
-            </Card>
-            <Card className="max-w-sm">
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                {t("card_title_2")}
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                {t("card_descr_2")}
-              </p>
-            </Card>
-            <Card className="max-w-sm">
-              <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                {t("card_title_3")}
-              </h5>
-              <p className="font-normal text-gray-700 dark:text-gray-400">
-                {t("card_descr_3")}
-              </p>
-            </Card>
-          </div>
+          <h2 class="text-4xl font-extrabold dark:text-white">
+            {t("article_title")}
+          </h2>
+          <p className="mt-6">{t("article_block_1")}</p>
+          <p className="mt-6">{t("article_block_2")}</p>
+          <p className="mt-6">{t("article_block_3")}</p>
+          <h3 className=" mt-6 text-3xl font-bold dark:text-white">
+            {t("article_block_4")}
+          </h3>
+          <p className="mt-6">{t("article_block_5")}</p>
+          <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
+            <li className="mt-4">
+              <span class="font-semibold text-gray-900 dark:text-white">
+                {t("article_block_6")}
+              </span>{" "}
+              {t("article_block_7")}
+            </li>
+            <li className="mt-4">
+              <span class="font-semibold text-gray-900 dark:text-white">
+                {t("article_block_8")}
+              </span>{" "}
+              {t("article_block_9")}
+            </li>
+            <li className="mt-4">
+              <span class="font-semibold text-gray-900 dark:text-white">
+                {t("article_block_10")}
+              </span>{" "}
+              {t("article_block_11")}
+            </li>
+          </ol>
+          <h3 className=" mt-6 text-3xl font-bold dark:text-white">
+            {t("article_block_12")}
+          </h3>
+          <p className="mt-6">{t("article_block_13")}</p>
+          <p className="mt-6">{t("article_block_14")}</p>
+          <blockquote class="p-4 my-4 border-s-4 border-gray-300 bg-gray-50 dark:border-gray-500 dark:bg-gray-800">
+            <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+              {t("article_block_15")}
+            </p>
+          </blockquote>
+
+          <p className="mt-6">{t("article_block_16")}</p>
+
+          <h3 className=" mt-6 text-3xl font-bold dark:text-white">
+            {t("article_block_17")}
+          </h3>
+          <p className="mt-6">{t("article_block_18")}</p>
+          <p className="mt-6">
+            {" "}
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_19")}
+            </span>{" "}
+            {t("article_block_20")}
+          </p>
+
+          <p className="mt-6">
+            {" "}
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_21")}
+            </span>{" "}
+            {t("article_block_22")}
+          </p>
+
+          <p className="mt-6">
+            {" "}
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_23")}
+            </span>{" "}
+            {t("article_block_24")}
+          </p>
+          <h3 className=" mt-6 text-3xl font-bold dark:text-white">
+            {t("article_block_25")}
+          </h3>
+          <p className="mt-6">{t("article_block_26")}</p>
+          <p className="mt-6">{t("article_block_27")}</p>
+          <h3 className=" mt-6 text-3xl font-bold dark:text-white">
+            {t("article_block_28")}
+          </h3>
+          <p className="my-6">{t("article_block_29")}</p>
         </div>
       </section>
       <Footer />

@@ -117,6 +117,8 @@
   },
   "Birthday": 
   { 
+    "metaTitle": "Generador de felicitaciones de cumpleaños con IA gratuito",
+    "metaDescription": "¡Olvídate de los saludos genéricos! Crea felicitaciones de cumpleaños únicas y con tecnología de IA que lleguen al corazón. ¡Empieza ahora!",
     "heroTitle": "Deseos de cumpleaños de IA", 
     "heroDescription": "La forma más rápida de generar un deseo de cumpleaños", 
     "youtube_id": "https://www.youtube.com/embed/91PgSxsGxVQ", 
@@ -131,5 +133,12 @@
     "create_ai_wish": "Crear deseo de cumpleaños de IA", 
     "placeholder": "Escribe aquí las pistas de cumpleaños...", 
     "model": "gemini", 
-  "language": "Spanish" }
+  "language": "Spanish",
+  "step_1_title": "Escribir o dictar",
+  "step_2_title": "Hacer clic en el botón",
+  "step_3_title": "Copiar tu deseo",
+  "step_1_descr": "Agrega solo algunas piezas de información sobre tu amigo.",
+  "step_2_descr": "Y tu deseo personalizado será generado.",
+  "step_3_descr": "Y pégalo en tu mensajero favorito." 
+}
 }
