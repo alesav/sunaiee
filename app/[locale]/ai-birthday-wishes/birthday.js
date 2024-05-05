@@ -297,7 +297,7 @@ const Birthday = () => {
                     <h3 class="font-medium leading-tight">
                       {t("step_2_title")}
                     </h3>
-                    <p class="text-sm">{t("step_1_descr")}</p>
+                    <p class="text-sm">{t("step_2_descr")}</p>
                   </span>
                 </li>
                 <li class="flex items-center text-gray-500 dark:text-gray-400 space-x-2.5 rtl:space-x-reverse">
@@ -308,7 +308,7 @@ const Birthday = () => {
                     <h3 class="font-medium leading-tight">
                       {t("step_3_title")}
                     </h3>
-                    <p class="text-sm">{t("step_1_descr")}</p>
+                    <p class="text-sm">{t("step_3_descr")}</p>
                   </span>
                 </li>
               </ol>
@@ -320,6 +320,13 @@ const Birthday = () => {
           <p className="mt-6">{t("article_block_1")}</p>
           <p className="mt-6">{t("article_block_2")}</p>
           <p className="mt-6">{t("article_block_3")}</p>
+          <div className="flex items-center justify-center">
+            <img
+              class="h-auto max-w-full"
+              src="/ai-birthday-wish-generator.jpeg"
+              alt="AI Birthday Wish generator"
+            ></img>
+          </div>
           <h3 className=" mt-6 text-3xl font-bold dark:text-white">
             {t("article_block_4")}
           </h3>
