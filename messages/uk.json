@@ -38,7 +38,8 @@
        "Login":"Увійти",
        "SignUp":"Реєстрація",
        "blog_url":"https://blog-uk.sunai.ee",
-       "about_us_url":"https://blog-uk.sunai.ee/about"
+       "about_us_url":"https://blog-uk.sunai.ee/about",
+       "ai_birthday_wishes": "ШI Генератор привітань з Днем народження"
     },
     "Footer":{
        "About":"Про нас",

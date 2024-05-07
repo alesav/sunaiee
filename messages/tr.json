@@ -40,7 +40,8 @@
     "Login":"Giriş yap",
     "SignUp":"Kayıt Ol",
     "blog_url":"https://blog.sunai.ee",
-    "about_us_url": "/about"
+    "about_us_url": "/about",
+    "ai_birthday_wishes": "Yapay zeka doğum günü dilek jeneratörü"
   },
   "Footer":{
     "About": "Hakkımızda",

@@ -45,7 +45,8 @@
     "Login":"Iniciar sesión",
     "SignUp":"Registrarse",
     "blog_url":"https://blog.sunai.ee",
-    "about_us_url": "/about"
+    "about_us_url": "/about",
+    "ai_birthday_wishes": "Generador AI de deseos de cumpleaños"
   },
   "Footer":{
     "About": "Acerca de",

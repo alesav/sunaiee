@@ -39,7 +39,8 @@
     "Login":"Logi sisse",
     "SignUp":"Registreeru",
     "blog_url":"https://blog-ee.sunai.ee",
-    "about_us_url": "/about"
+    "about_us_url": "/about",
+    "ai_birthday_wishes": "AI sünnipäeva soovide generaator"
   },
   "Footer":{
     "About": "Meist",

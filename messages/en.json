@@ -77,12 +77,13 @@
     "Pricing":{
       "metaTitle": "Sunrise AI - Pricing",
       "metaDescription": "Enhance your intuition with our online simulator! - Home Page",
-      "Title":"Pricing Title",
-      "Description":"Please check our plans below. Free tier is suitable for small companies, Airbnb hosts and AI enthusiasts.",
-      "Free_tier":"Free tier",
+      "Title":"Pricing",
+      "Description":"Sign up during the month of May and enjoy our free tier, packed with exclusive benefits. Don't miss this opportunity to experience our platform without any upfront costs.",
+      "Free_tier":"Free tier (May offer)",
       "Per_month":"month",
       "Always_free": "Always free",
       "Up_to_3_Livechat_bots": "Up to 3 Livechat bots",
+      "content_maker": "Content maker included",
       "1_agent_seat": "1 agent seat",
       "Limited_amount_of_models": "Limited amount of models",
       "Personal_support": "Personal support",
@@ -100,8 +101,8 @@
     "Contact":{ 
       "metaTitle": "Sunrise AI - İletişim", 
       "metaDescription": "Bize yazın, doğrudan iletişim bilgilerimiz şunlardır", 
-      "Title":"İletişim", 
-      "First_text": "Size bir sohbet robotunda bize yazmayı veya web sitesindeki bir robota isteğinizi bırakmanızı önerebilirdik, ancak gerçek bir kişiyle konuşmak istediğinizi düşünüyoruz. Biz de canlı iletişimi seviyoruz, bu yüzden doğrudan iletişim bilgilerimiz şunlardır:" 
+      "Title":"Contact", 
+      "First_text": "We could suggest writing to a chatbot or leaving your request to a bot on the website, but we think you'd prefer speaking with a real person. We also enjoy live communication, so here are our direct contact details:" 
     },
       "Birthday":{
         "metaTitle": "Free AI Birthday wish generator",
