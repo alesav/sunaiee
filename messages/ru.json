@@ -148,6 +148,36 @@
           "article_block_29": "Попробуйте Генератор поздравлений с Днем рождения с использованием ИИ уже сегодня! Испытайте разницу, которую может внести персонализированное сообщение, и создайте незабываемые воспоминания в их особенный день."
  
 
+},
+"Hospitality": {
+  "metaTitle": "AI in hospitality",
+  "metaDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge AI solutions.",
+  "heroTitle": "AI in hospitality",
+  "heroDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge solutions. Our AI assistants seamlessly integrate into your workflows, automating repetitive tasks to boost efficiency and provide exceptional customer experiences.",
+  "youtube_id": "https://www.youtube.com/embed/yH7g0lM3P08",
+  "botId":"c2182e79-f387-4a4e-934f-d53ce30d077f",
+  "voiceLanguage": "ru",
+  "card_title_1":"Your Virtual Hospitality Concierge",
+  "card_descr_1":"Never leave your guests waiting with our multilingual AI assistant. It's available 24/7 to answer questions, handle requests, and ensure a seamless guest experience. Say goodbye to missed messages and unhappy customers.",
+  "card_title_2":"Effortless Online Booking Powered by AI",
+  "card_descr_2":"Our intelligent booking assistant streamlines the reservation process. Simply ask about availability for your desired time, and the AI will instantly check and confirm your booking - no forms, no hassle. Experience the convenience of conversational booking.",
+  "card_title_3":"AI Data Collection Solution",
+  "card_descr_3":"Our intelligent chatbot efficiently gathers all required information from clients prior to HR screenings, service appointments, and more. By having customers conveniently provide details through natural conversation, your team receives complete data beforehand via API integration. Save time, increase efficiency.",
+  "article_block_1": "Современные гости отелей ожидают не только комфортного проживания, но и возможности быстро решать любые проблемы в любое время суток. Здесь на помощь приходят чат-боты, работающие на основе искусственного интеллекта. Рассмотрим преимущества, которые получают гости благодаря внедрению чат-ботов:",
+  "article_block_2": "Круглосуточная поддержка на нескольких языках:",
+  "article_block_3": "Гостям больше не нужно ждать ответа на стойке регистрации или звонить на горячую линию для получения помощи. Чат-бот доступен 24/7 и может общаться с гостями на их родном языке, устраняя языковой барьер.",
+  "article_block_4": "Мгновенный доступ к информации об отеле:",
+  "article_block_5": "Хотите узнать часы работы ресторана или информацию о ближайших достопримечательностях? С помощью чат-бота гости получают мгновенный доступ к любой информации об отеле и его услугах.",
+  "article_block_6": "Персонализированные рекомендации по услугам и мероприятиям:",
+  "article_block_7": "Чат-бот может анализировать предпочтения гостей и предоставлять персонализированные рекомендации по ресторанам, спа-процедурам, экскурсиям и мероприятиям, соответствующим их интересам.",
+  "article_block_8": "Преимущества для отелей",
+  "article_block_9": "Внедрение чат-ботов на основе искусственного интеллекта приносит пользу не только гостям, но и самим отелям. Рассмотрим, как чат-боты помогают улучшить работу отелей:",
+  "article_block_10": "Повышение эффективности персонала за счет выполнения рутинных задач: ",
+  "article_block_11": "Чат-боты могут обрабатывать множество рутинных запросов гостей, таких как вопросы о времени завтрака или инструкциях по использованию сейфа. Это освобождает время персонала для выполнения более сложных задач и предоставления персонализированного внимания гостям.",
+  "article_block_12": "Повышение уровня обслуживания и удовлетворенности гостей, ведущие к положительным отзывам: ",
+  "article_block_13": "Благодаря круглосуточной доступности и мгновенным ответам на запросы, чат-боты повышают уровень обслуживания гостей. Это, в свою очередь, приводит к увеличению удовлетворенности гостей и положительным отзывам об отеле.",
+  "article_block_14": "Снижение затрат за счет оптимизации процессов:",
+  "article_block_15": "Автоматизация рутинных задач с помощью чат-ботов позволяет отелям сократить время обработки запросов и оптимизировать рабочие процессы. В результате снижаются затраты на персонал и повышается общая операционная эффективность."
 }
     
   }

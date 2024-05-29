@@ -224,53 +224,52 @@ function Homepage() {
         </div>
       </section>
       <section>
+        <p className="mt-6">{t("article_block_1")}</p>
+        <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
+          <li className="mt-4">
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_2")}
+            </span>{" "}
+            {t("article_block_3")}
+          </li>
+          <li className="mt-4">
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_4")}
+            </span>{" "}
+            {t("article_block_5")}
+          </li>
+          <li className="mt-4">
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_6")}
+            </span>{" "}
+            {t("article_block_7")}
+          </li>
+        </ol>
+        <h3 className=" mt-6 text-3xl font-bold dark:text-white">
+          {t("article_block_8")}
+        </h3>
+        <p className="mt-6">{t("article_block_9")}</p>
+        <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
+          <li className="mt-4">
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_10")}
+            </span>{" "}
+            {t("article_block_11")}
+          </li>
+          <li className="mt-4">
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_12")}
+            </span>{" "}
+            {t("article_block_13")}
+          </li>
+          <li className="mt-4">
+            <span class="font-semibold text-gray-900 dark:text-white">
+              {t("article_block_14")}
+            </span>{" "}
+            {t("article_block_15")}
+          </li>
+        </ol>
         <div className="grid grid-cols-1 gap-4 mx-auto max-w-screen-xl px-4 lg:px-12 py-8 lg:py-16 justify-center items-center">
-          <p className="mt-6">{t("article_block_1")}</p>
-          <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
-            <li className="mt-4">
-              <span class="font-semibold text-gray-900 dark:text-white">
-                {t("article_block_2")}
-              </span>{" "}
-              {t("article_block_3")}
-            </li>
-            <li className="mt-4">
-              <span class="font-semibold text-gray-900 dark:text-white">
-                {t("article_block_4")}
-              </span>{" "}
-              {t("article_block_5")}
-            </li>
-            <li className="mt-4">
-              <span class="font-semibold text-gray-900 dark:text-white">
-                {t("article_block_6")}
-              </span>{" "}
-              {t("article_block_7")}
-            </li>
-          </ol>
-          <h3 className=" mt-6 text-3xl font-bold dark:text-white">
-            {t("article_block_8")}
-          </h3>
-          <p className="mt-6">{t("article_block_9")}</p>
-          <ol class=" space-y-1 text-gray-500 list-decimal list-inside dark:text-gray-400">
-            <li className="mt-4">
-              <span class="font-semibold text-gray-900 dark:text-white">
-                {t("article_block_10")}
-              </span>{" "}
-              {t("article_block_11")}
-            </li>
-            <li className="mt-4">
-              <span class="font-semibold text-gray-900 dark:text-white">
-                {t("article_block_12")}
-              </span>{" "}
-              {t("article_block_13")}
-            </li>
-            <li className="mt-4">
-              <span class="font-semibold text-gray-900 dark:text-white">
-                {t("article_block_14")}
-              </span>{" "}
-              {t("article_block_15")}
-            </li>
-          </ol>
-
           <div className="lg:mt-0 lg:col-span-8 grid grid-cols-1 md:grid-cols-3 gap-4">
             <Card className="max-w-sm">
               <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
