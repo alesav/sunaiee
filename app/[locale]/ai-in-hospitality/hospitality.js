@@ -11,8 +11,8 @@ import {
   Card,
 } from "flowbite-react";
 import { v4 as uuidv4 } from "uuid";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "../Navbar";
+import Footer from "../Footer";
 
 function Homepage() {
   const [randomNumber, setRandomNumber] = useState(0);
@@ -38,7 +38,7 @@ function Homepage() {
       },
     ],
   });
-  const t = useTranslations("Home");
+  const t = useTranslations("Hospitality");
 
   // Speech Recognition Setup
   let recognition;
