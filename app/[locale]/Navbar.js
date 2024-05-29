@@ -2,6 +2,7 @@
 import React from "react";
 import { Navbar as FlowbiteNavbar, Dropdown, Button } from "flowbite-react";
 import { Link } from "./../../navigation";
+import CrispChat from "./CrispChat";
 import { useTranslations } from "next-intl";
 import { HiCog, HiCurrencyDollar, HiLogout, HiViewGrid } from "react-icons/hi";
 
@@ -124,6 +125,7 @@ function Navbar() {
           </Dropdown.Item>
         </Dropdown>
       </FlowbiteNavbar.Collapse>
+      <CrispChat />
     </FlowbiteNavbar>
   );
 }
