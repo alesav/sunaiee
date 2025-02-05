@@ -145,5 +145,35 @@
     "article_block_27": "Забудьте про шаблони - за допомогою невеликої кількості інформації про людину інструмент ШІ перетворює прості слова на щирі привітання, що відображають суть ваших стосунків. Уявіть радість на обличчі вашого друга, коли він отримає привітання з Днем народження, що відображає спільний спогад. Це миті, які поглиблюють зв'язки і роблять дні народження по-справжньому особливими.", 
     "article_block_28": "Готові відкинути шаблони і додати персоналізацію?",
     "article_block_29": "Спробуйте Генератор привітань з Днем народження з використанням ШІ вже сьогодні! Відчуйте різницю, яку може внести персоналізоване повідомлення, і створіть незабутні спогади в особливий день."
-   }
+   },
+   "Hospitality": {
+      "metaTitle": "AI in hospitality",
+      "metaDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge AI solutions.",
+      "heroTitle": "AI in hospitality",
+      "heroDescription": "Revolutionize your business operations with Sunrise AI's cutting-edge solutions. Our AI assistants seamlessly integrate into your workflows, automating repetitive tasks to boost efficiency and provide exceptional customer experiences.",
+      "youtube_id": "https://www.youtube.com/embed/yH7g0lM3P08",
+      "botId":"c2182e79-f387-4a4e-934f-d53ce30d077f",
+      "voiceLanguage": "ru",
+      "card_title_1":"Your Virtual Hospitality Concierge",
+      "card_descr_1":"Never leave your guests waiting with our multilingual AI assistant. It's available 24/7 to answer questions, handle requests, and ensure a seamless guest experience. Say goodbye to missed messages and unhappy customers.",
+      "card_title_2":"Effortless Online Booking Powered by AI",
+      "card_descr_2":"Our intelligent booking assistant streamlines the reservation process. Simply ask about availability for your desired time, and the AI will instantly check and confirm your booking - no forms, no hassle. Experience the convenience of conversational booking.",
+      "card_title_3":"AI Data Collection Solution",
+      "card_descr_3":"Our intelligent chatbot efficiently gathers all required information from clients prior to HR screenings, service appointments, and more. By having customers conveniently provide details through natural conversation, your team receives complete data beforehand via API integration. Save time, increase efficiency.",
+      "article_block_1": "Сучасні гості готелів очікують не лише комфортного перебування, а й можливості швидко вирішувати будь-які проблеми цілодобово. Тут на допомогу приходять чат-боти, що працюють на основі штучного інтелекту. Розгляньмо переваги, які отримують гості завдяки впровадженню чат-ботів:",
+      "article_block_2": "Цілодобова підтримка кількома мовами:",
+      "article_block_3": "Гостям більше не потрібно чекати відповіді на рецепції або дзвонити на гарячу лінію для отримання допомоги. Чат-бот доступний 24/7 і може спілкуватися з гостями їхньою рідною мовою, усуваючи мовний бар'єр.",
+      "article_block_4": "Миттєвий доступ до інформації про готель:",
+      "article_block_5": "Шукаєте години роботи ресторану або хочете дізнатися про найближчі визначні місця? Завдяки чат-боту гості отримують миттєвий доступ до будь-якої інформації про готель та його послуги.",
+      "article_block_6": "Персоналізовані рекомендації щодо послуг та заходів:",
+      "article_block_7": "Чат-бот може аналізувати вподобання гостей і надавати персоналізовані рекомендації щодо ресторанів, спа-процедур, екскурсій та заходів, які відповідають їхнім інтересам.",
+      "article_block_8": "Переваги для готелів",
+      "article_block_9": "Впровадження чат-ботів на основі штучного інтелекту приносить користь не лише гостям, а й самим готелям. Розгляньмо, як чат-боти допомагають покращити роботу готелів:",
+      "article_block_10": "Підвищення ефективності персоналу завдяки виконанню рутинних завдань:",
+      "article_block_11": "Чат-боти можуть обробляти безліч рутинних запитів гостей, таких як питання про час сніданку або інструкції з використання сейфу. Це звільняє час персоналу для виконання складніших завдань і надання персоналізованої уваги гостям.",
+      "article_block_12": "Підвищення рівня обслуговування та задоволеності гостей, що веде до позитивних відгуків:",
+      "article_block_13": "Завдяки цілодобовій доступності та миттєвим відповідям на запити, чат-боти підвищують рівень обслуговування гостей. Це, у свою чергу, призводить до збільшення задоволеності гостей і позитивних відгуків про готель.",
+      "article_block_14": "Зниження витрат завдяки оптимізації процесів:",
+      "article_block_15": "Автоматизація рутинних завдань за допомогою чат-ботів дозволяє готелям скоротити час обробки запитів і оптимізувати робочі процеси. В результаті знижуються витрати на персонал і підвищується загальна операційна ефективність."
+    }
  }
